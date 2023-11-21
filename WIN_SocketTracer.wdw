@@ -1,0 +1,1347 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_SocketTracer
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_SocketTracer
+ identifier : 0x286e62de077eac9e
+ internal_properties : CAAAAAgAAAA6Q7Z28J5DVrxdqUhTCXXL6PmAuFX6+wLX1YplWTGZFbeKpacIUuwhqWWdZs5QaX0RA2O0qu9aLKzpq/5tIv4BX1PPTaXPkD/4hhNa2yfwwyegprptrBgsYbOS5KqfFMaCrQYaYmwONmMOvQgrOvfin5Tn9WRs6R2VnDQ3qXJiNu4aF5TAI9w+VZpeu5+FUM819ORE6WazJWWNZyxh2Hq6rJWWsffDDfn/z8c965VNdlilQxFWrJ2x1RvB0QOsnkQ5irt8kbk9AXpHRUEBxwbBjGid5Z3kcmYx0AqaHZKK+3YBbNFr77lOAQo/ZbrJIuBWm5HMV944rNqXPs8iLwISt84uARtIoIqwDcn31VYgZUV5hCS1oLtd9hk8ISKKeoY/vITcUBPHhPvKRICSQgHDPyxyGGDF5v5Q6TgYjwMcR5x/ap51r36ZE9mDPxA8pOoIjTZgUYeAlcRW58+5/dNQDgfhzedQwKXw/TICRa+QQqAB4VWknBfGKoxzdwxe3YqLNumbyXx9bm0KrC7beMeFkYgToa9ARcX9qaGAthdAB2tAOOGtCvW20yZwFmd+sb1XbIoyaZWlmXll0zMw97i4WcqtIDJKsyeFjolDTHZ38VR4zXPoMSgAkj/pJ9Vs2wFCPkcTpzZkeCcgMvGq2gqyRdD8xq6oIEvtFMqz6dC5r+CJsGZZo6LTgb345UMfDMdHBoQkC53agW3rgs2qXK1/xrBOI/gsNgWiOkHkrYf6lfCT1WEulairogDvpQWsq9b5fitqPv7u5OHWM12rfa8NX12EMhBIlnKcSTO6XVgzrFvw400FueaAmX8qlfLuzpg3XvHWC6vwKVPwKGgaoSLElTHPYM5VRwuto/0KL7Z0PE6sKuIto9h2MagiWpqiZLsLS+7c/11TMuDjqTZQOahrfK+g/foOsyqLXXcrFEquZsThHPwdgBGk7KWMOInu
+ properties :
+  width : 960
+  height : 770
+  widthClient : 958
+  heightClient : 738
+ controls :
+  -
+    name : IMG_ClientApplication
+    identifier : 0x286e62de0780ac9e
+    internal_properties : CAAAAAgAAAA6fZ6gBpbTK8ig4WZNqcuJTxK18mHOUu8dC5JI971o99uxLcOm4aBbJBrn3vPA0WxSi2ytpUXcat1uhvOaxYMe/diPtW5wcRy0f9Gx121OUBxmZSBEj8EwYC6WKQPn7A+Y2hk55OxACOzfXNdrPbus1XfB1Ge1M1+qxfnDBHVd6D9G0thwjU43omgehaclAEaXyyLxEkTLv21lNJlDLL/sf7Gb3g6bMmfQOQDg2kO7UtqTA2QPPFtXjhykq0ounjR63kv0kmU3uYSrF+ZFqMtSC2r9u7uxamb7ZgWR7KDS5XC1Q9L1jrzErWu3zf88zl9di8dbEd1JLCWRdLh19fylSBzySu01OVvikDHtWVGVYIOcDgT9vnTttQ5oazKHi+6E8OUj8QhM55duCILexRtN02SLEjIDJlG9PE+QuPFuSRXd/MBg/1Y26EvJ+Y1zy96KwAj2VsNQprq9XF8/I89OOpXTi9bNa/N9W1kLX5eAzjJiMNxqFRh6Pgwcml4k5HnikavmbAqvuNVdI6Qzl1yfhwIknHuexT27VidmVPKbNH7/0BS9QwQdaSzZjzk1RFgRZr6h+/fZfnjru332WnQ3FBufm8OEVovh6WNzGXVqUUYIljjyfSKHPXIFM0KmqG+24cnF3sQOjenepb9KjM1E9i6hMeqqi+fm9DCw8YZXzmiTXlBnCxQ23QPP2LajfkU37yj59z3GKkUhYDNNBSx4WK7Ge0ZCbkV3J0yld8010SKQ4cQivR4cyZFsBVVJdcEZlMfZ6JNA7TeKdIqGgjEEm/2vVV7z6OOHoKMCmPduglrzzXHuVBe3M+qdf9/o1xf+FjEj2ZdfLYuMvkPstatlZ7MHHt7VlC2d65adpG/HTJELXpMaGKYMTHfhCh+SHS4=
+    properties :
+     x : 95
+     y : 66
+     width : 80
+     height : 80
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_ServerApplication
+    identifier : 0x286e62de0781ac9e
+    internal_properties : CAAAAAgAAAARBHF9M9VsINlGwKlgBu5AWs2eO2TL3eBYdhk7cKKjqv60kuB9bO9FUgTxCD2m47ZkLV53V5fiPKOQmJ3cQ03YfwLBL2Dy9x76wvgIvCZl/xv1BpFzjEy5L31VJMYky4LMJOSzbo4O+vLZviE9sxX+pxGzLnkPIdkwV3vVViNnElG4ZHrs5xzBLJrkPwF7+oxJrbwLxC7pie/POvvlckmCuautmLA1AIki09byTGmdOGw9Rdap9hn5ELYCxVwEOEIcEH0GZHF531ZRVQMrGtfAf497sXlnLLTZBmMH0mqgwy5T0U5rmVXoEAnxGMTKGVB4R8tXpCmprBMjvMbZ4mFK0jxhsOD64IKfRMJMZQO5eqz4y6O39cwjKxncKkGJ6AxCjaSZ+D1mqX/r/I3oyAGrMfYqBXUqaItAx74+Nc63w9ZidS6e8hNYqkCHE1tRIRx1eLRebj8yw5H5NqXEMsZXLJe5xym84UEgayeBgc6QcVq/n4akPHPcKajQxGcFS9VfDgseOnt8XKDdG0XYHCrRzjo1zElcZoawB2drU1i3MBHVm23gmE/yOkWE1X93jjGhLXODyIZI9iQQx3n8PMLBXu35eQGOWouFBePzYR0/ti9xfUHEk6Rp8/hhr0aqqFM24cWZWgxWcYFmqZNm+GWAbia17dZS27O2BMxcrfLnAhjTAuQzs5SSbWuzDOJ/Ful3v3wV6z0+vu1RnI3va04e/tT8vbBwCMcNtUpX2WOXp3huxyacw3DGv4/a939Hv/vRTAkdJEvaZZnsXJIMHEs8FWcHzRb7/vkpwsUg/tFUJLzdJ9c0zg2tZZxPjbXSnYlQ0AvZBzH1Y/0+0kf2a1mxtQHbyvK1GkG7ibK5Ork9gOdRGhVEIgPnLyIAG2CnBhU=
+    properties :
+     x : 800
+     y : 66
+     width : 80
+     height : 80
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_SocketTracer
+    identifier : 0x286e62de0782ac9e
+    internal_properties : CAAAAAgAAADb60vz5Ou3nuj/YxKCGL+tk9BA1YA7WcZJh7lM3dDDDVj3IixQ07KnueeJY3nCd5b2iGo+8zP37eJSJbwDBiuv4sGXWfM7DEcRR/hAYbI4vyRVUBsxSvo+tkK/jfzxxADjS689b6anGLG2J84EXzb6MrPitBtkxBgGTSQKcs9lywvi/DQWWLQv+oI/bxde6bxp8NPzZQDG39+Nov/hxebmRMiYHuLDvY0C4ci80a6oBv373NROkYMq9Ot0SBWDWegTLNpcNYvoXRKlLmg/AZPfCZJt9ys6yEbvPp9kfFXR7Ed+xud72AQbbHrEG9Iv4KgwxZghnpl2yXbFAP0COGgvjeERGMVY6SWVS4Nxy1WH64w4Hk1LweBTH7E12AknR6ix1Q6Yd8CWTKauoHJB0rO6wnbBBwIBwkA4f3vdJChHKEbqywt9FtjLD2pQbMvdjnQAJloHX08k7XlhNicTeA8ItRm4peW8xJBCK7nw2pHoMJvh8Iw8N/9ElysmE/8hxneGqDOTtaqsV0d1lBy2dC2s40wuOJEDc34Bn/tyYKrXoKWixhPWtqqcwFAQuJ0PE24t4iVhc6mXP0Ki07vO5St7U21B/hzg9w1fmWgYvaV0w21B5XIdzOAXoudW9Mzkt2b4HcBG7VzY/iUJ88aqByg1/q3O5DqVBNUSOCOgWXCR6nl2RdF/L0Cb52kF6s5clE/wu4VDokRHj1QZBvXvIZfnHUALOaIOwMklVngupW7xg2Ec6WSKlLwiRO7skhYpRlML1cHww2Zu839frHAN8XRnFyMIh2arbLQTf/CRtqe2mm0LAoQZeXQU/IwOu+e18w24RzY4q8UM+x9/l2trspMaghmS7Hg+ZVa0+/oB/DVe90xTQkMsNvOZcw==
+    properties :
+     x : 452
+     y : 261
+     width : 80
+     height : 80
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : STC_SocketClientApplication
+    identifier : 0x286e62de0783ac9e
+    internal_properties : CAAAAAgAAAAYC3WZLjxEl3sWgIfQtZ5gupQ2bdjCEMrhVxOiCymmb6K6UWZSKZ5ee8vO+vXnymKgaB8QFtA746fts0aIWV0nDFdHRczS8eFgQMxXhFxH7GrEiyLBQHDyxUjWDAasvO5bdbZBUG3rHyeNSnyYWgoDyDH+GjvkUcMT7/srDx/iQq3wN8s2UlsLrQZk6NE4nxrSXRYoj/N+jNaPkEu4YOz2YzdSTNUGU9OKAywA5faTx5riWfnAeT7tPW/kIS90mpiSKPwsPd0KlaYVUZlzT/hguXX01xv0lJuAMxDw4Z3lJucmrQAlyvQT8OlGC20gPf7znBe0PLZPkubOBZcpi++ZQPoE3a5060IS0dgNAOyjIO11mRsmzMG4DFayAhsjbdajCF07iw4nk+6NfDZRQgfWbwbKrroU6Svwrv1qmiqjnMhXB9ArK/0axLuFovxq23KM5C08D7pxkfTfnkPhiSQeCJq6rgJX6W4nS8Oc6kLv1HMcrA1iavOo5dCZY6kuhWQxUKfpouYuzsgWid2pdMpUCTTN35aMVVipJ0ERkdHsSzgKOK+gL7l0ALBK/BNw/ww=
+    properties :
+     x : 21
+     y : 25
+     width : 231
+     height : 25
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_BrowserEmailApplication
+    identifier : 0x286e62de0784ac9e
+    internal_properties : CAAAAAgAAADJkMmyz+dcRVf1wc3Id1cSk21tiPgN0TetyPZM0/Q8ZtfzU+YjnUWHZrgXDW/0VXPQa4oQUwo9lcrErMQQtYjDAoGtZ8CLtnvD+U0w50fYg9tYo/NyUwim2B5d+LbcJ2ISJSo7vSB1xLa41+ILlDHygj2PA4tMcz9v8vgMR0GMVDmqCzygWdrLHIIWlA+qu+bxouR1hbAH9McouO0kvKOcKOgb6x0W2nLV8fLpwZX1HZ//QEeoWKa9aZzYCot/FnFB3JdrJC74siCbyKHXPW2Lb5qeCkY2+lbLqCA5c/XK3SPisKPoShgLfSfVaKhj7bSMIvEBEpbAk4JWaTBKuTV8qXdesqg2uxM/RvCiL9tP+41dPMXfGLCeLySR8ObDTlfTVF19Ljlz9WDk+RZSFaAHq1hogTBxTCwDw+S9Ik7yWXEcjVJ9XOHgS7k40HPht5qkahGhxbpF/7vdC9AGuz9Ch4tW7sYWndZNc3J9GMxFDBx/tKphZnmuFkQxbuKkHg==
+    properties :
+     x : 21
+     y : 46
+     width : 231
+     height : 16
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : EDT_CLIENTNAME
+    identifier : 0x286e62de0785ac9e
+    internal_properties : CAAAAAgAAADkbRewaJ+GnpkNLjXT/UabqulLc63rXewfSobTOI0QaJ8oWtOf/jtghxaSKBYYorO2k3MqeFXBdzVzrQ1uLWuUSsTslSbCMmwSla3C1cctgE1e2M8pyKHAKranLqqDnXKGkIciksFo3yM+8eXVcGzpqzRhC6kxXBUIpC/zu0GbGXB+8dNmTlL9+2cUsAhB+cHUaIZJWR+oB7VQVRLJZKRsdn6q2qiW49BeUw/T5wVk02a2n8EVoKVwUk69gQ/MadROJxDSvt/CFKgvAw23nce1EGE3Dc5Z4EP3mATmF6nk3b6cSR5xpUY3m7YiCkfQgjVyIzauHwypQLrIUvD8y7wM/vYAlHq+UE4I7JgYsHhAHB5ANSRKUL8cyPXI7Kh/TEpwJxBCN9d3276VRHqFOXLzQ8ZanQKIOKy6RWwYVOj/fNmud9aoAiw+UNXybufFzGfF4Eh+pKhOR7mByvKAq9h+m44c0Dfn/nlVFpbR3j/UnuF83MFDHTKm1EX6IgDwxcrRkpAPGSyVG8nW+rrLSiAxHyV3wJrr+huNc635X2EHS+gggGZAjShAcXpj+aY4Q4xCD0z7Fdnk+FvgJVbD8DrWMrI6ppE1TwUDk4VyoF3m6cvp4M3OphtMa5o/wiRqlmIaI5E6QVvUtDiVyK1f7039qP8P+rDR7f+bjVmzSv8NjEmmFrbsa9ewh/L73MWEhF9/yimsax32CMlDL/Z8uo77y65Czcgr0Kd/smun7ZyZQQYx6yUcoff+kTkzuNWk0tXtzdgLBUMYGO3g/szsTR8pOkHmVvyHszD2ItKuf9d6Gf/S/uMBYiTPgbR7ngWRw3OFqHBzzNtLaD/ow9L2+gulfuawJM/cfDQCBj+LBt63XM/2Q5Y8z0ucTHpuS7KKkL96hEYGCQowvmpL/e7Nj1MGmiVK9BNtScALbp7PF19sREsHzjm1mEGw4q4EF08dTp087vlF4gTvhNZ+E4a731v4AliyHs4GYBpJ/+i4zHYI9ktacuaLUcMgKIbKtLPTy4xh/PBjZeV6nauNgxvulWGCVdzNh+a+xlBnAfPZm/O9G76ahO68Gk+OQcbefVM21mcG+K0cfv2g8QmpVl31VHhq3YM1u8CaxuqtXk+cH0MsN/aj8XoxNOHGU8JhgcaRMgi7+BSlQg4UCCDbx7ETa+0SAkbxkD0o1zd9Jz2LTVb4KR7NgyjJ6btORIzVt2zCluiOxseIqplH+vpbX41m2WWUVCrYZ14lLses1Qaj+iADeGso6tyOacEx7KiVRUaWmyqxdtkcuwlViXwTsZDb3atuGedAaCEJ7Ww=
+    properties :
+     x : 21
+     y : 150
+     width : 231
+     height : 38
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+        type : 17
+  -
+    name : STC_POPWebServer
+    identifier : 0x286e62de0786ac9e
+    internal_properties : CAAAAAgAAACE7wzGqN8HMQoNKlUTevYZOrYmaB9PqIivTni2Oj07fFpjzYcfm8uOY9AuD6cHkx19NhI+Qjt7FJV+3K9+WREfu8zrWsi4L3GzDTq4/n9byyfsWQCVnC7Jnm0KOt2rxwZcVt84rX2jsPDkk+/c2sc91BrBbrpsJc0Suxfd/qZmDvZqxhCJ41MEBLUexByVvLQbsShvNB8AagJCYDkFM6YQyHGJnkiBUpb/beUnLRNYVPRTyvIm8SF6sDvXkC3ffN1SzWhlPH7cZ7mGhz+bM4QEUKtZAA8zDwZ44Uq7b3cgGS4EHl+Rnmz4dHrNp3CU6ytjKg5gnZucr2CGJMsrN/b8XpoKfPkXFLDSJpIriJSwYXVUUUUY3OzF28DwCihUTsv6LuIanPMg5QGJO8siI406PvcBZh/+jgdICOvHrldvWoTMA6L0gSZ9meei3IXsm9qW5DlehlicEm52+M5HvskId8uKFeXRDG1YuunsU0SRHAR7RtaTqoI9vCqU9R0=
+    properties :
+     x : 738
+     y : 46
+     width : 202
+     height : 16
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_SocketServerApplication
+    identifier : 0x286e62de0787ac9e
+    internal_properties : CAAAAAgAAAAUFpyGwnQOwrT3ZkK75vdpVl3lQV7OG8gjhi452TZpX8S2AXe9fOAxiu0Y5r0iBJ1wIyPD+F7mnWUMKBEWl4CDK0L3+GsmA5wmh3SDpKOjLBjJDQHguXJufd/goSuaGSRLIOQPbe2Mu4uN7xNKUpz9TVKCumLzC3yLWu6S3tzyH1EuSkU3UwQ8vGZ6ELL/IckVVi4QI7LG/Cd64qu5iTZZaaL0QvXU8NSqsdaePek1dw3Gudvwiedv5xpmREfOhiibquvLgxhKm3Co+yWqnm12+BrM1emwMXyTjFU81n0n/tbv4sitBxg+4CC9p5qQP7wIl1523tefIYgXGD32Pe9FI3/BJSbJty92TpP3i2DphhowjF8Czakttmcx/LRnz24WbQ7dJVPpEMhmHwjU/lGSFs9RpADhJWLcwcjG1RgfemOgmDaxbsHtnu6eHtEqf+AxPMlFGLBCsCVPfnmnGqvH/DFPe68vVbc4U+Elmntg2FNE5EUzBQ/P32HbPi0pOAqu995eM+osVb+DWZLHPBZwxhFPDpTTLYv4EMAbP3S52II5hEAxr6GvLIWw114TkqU2Gxc=
+    properties :
+     x : 738
+     y : 25
+     width : 202
+     height : 25
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : EDT_SERVERNAME
+    identifier : 0x286e62de0788ac9e
+    internal_properties : CAAAAAgAAAA4U5zSn3PDODk3BYCe4QapwWkL2IBdm7DPvoS7KBkZ/QQKA9xeXHCPjDgjM/8w5usg4jbhUpeh2ytdiiKF0IVxVi0MhQ1byxoLyxh3j6QA91ZNJWg82kDYR9KVgRM8ZR8MxTlqHr1StACcpyI04mFejQ/LkqMaG0Ysne/FJyBZ3ATrhw2sZbkIdo2Q5MuobfZ/jI2cjb3XUsqJVklNy52tQWaR5MLH38/xk3Otzbh6rb+7+vM9AozCDk7iaB9FGfIptD3+giIl9AizjaVplNzUVzG0uQZvkfTokREz1v5voamXbVyr9QVlAJc1JXHlwbF0KVQ81cEFENa066SXrDAWYEnEi+PyVi+CSeoQe0NDXSWzv7+tGxkSzSZyDZCk9+hlTD5NKfBUhL4d8aZwhkndCEacWBTPoOKxtoNE5qEZwZQpitDw9AmzVhfeV6X5uIJgkYYAcxr4TRDpWpmZOy9J66PytH4AKWrZcCkDgx1ndlhWwhlhFZRwm5qqIfmalBatEleas5OVo5YWGBj1z5sDXbUy/FZR7bekHoALmtP9C4ZTMFIGIRHV1k0x6XMVnUFuIOjnTBXUBefjzaoiO/BhploLK4baJ9L4Hb92kMfxCOuszkurLGrjJsC2joPD6k+UAknm9yj9SL9GUtXcyGQjegHY4ICt5qMwkI6V5bZE5DEm7S5O7XIkTH1WIhQL/2V3+n64Jx3j0j72nCh3+VdHRUCV2aott0fUucpXaJM+X54x8p2knfgSjjDgegwDed8fZ41T0zHhvEovYei3MND/Wtm7gPYxcuwZM6fYiHjxPblE6Rntggu1fAVkaIx4tvdBDMHF1A9cMhxLfoJX85apStInDD9wAxppPzZBdZHepn9eimweGbCu9YFL82tX95tesPFYayRzXL1MSDx6nKhudE83WM/lpjRmU8s34vJZLq0R1UULPgx+d5GbBf7sy6ugMqzzSEocEPWL7GCqerjQLIof4roWnUAY6J+qMW/vYF++fxb14xh87XHnSSMhF0mDaMF/aqdQCv/nSS7MAQGnxpWHChchMnvpfb/8I9XTvjOnoMsI7DLB3P9Iok/YgvKjJI6EgvaWPoW2teDh4z7NAbQSLiQM+iyBT910wx/WrXY2U8Z35ICb6NmzppCuLRi8y1OkgUgZ8M0Z9fxonpKyP0r3VmPBnzuFXTnxdIPVJ3QFyDoPEb5FHyCMhgE9nUa5U6e3MlQBw83H/ktq7mZ/Q38t6ZU9/IhvawG+26dBjNIrhgGnNoW2UXiJwg0jn2EUbpWi
+    properties :
+     x : 728
+     y : 150
+     width : 216
+     height : 38
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+        type : 17
+  -
+    name : EDT_REALIP
+    identifier : 0x286e62de0789ac9e
+    internal_properties : CAAAAAgAAABRLY1PmgCGx0y+3YhoqvPIsJmYFDDqkehbqs1+cobv7dW/l4V/XrRcmnV9CFzME/qpfiDgNycjTpZ0bUFREZ1i+O1Jogr+Bz4bdNVoFLIfieje2gLQVjgHNjauGHvN/Hf0l1HC8lR9Uptfb4Y5iwBh+X1f9mmAW/fJaomNB6b7CvCdHCnLBKrHTIwpPmDhPUry/VxMfYBiJ7UChnZIyK3+/CqeLkFR9z/NSZpzMTW2yJcJ0Y0kq35TCVzL4qaC15Vv8sae1O8eUDWI2lnGF8b1R/OmPVfOgMK1qBhVZw/zXzleQYVxcp9/LGIMHsZ11V12kwsN32rXsq2pQ6tJ7VZH3uur3NUKc2HUlWloD1pfteGLoxQhZ1dkgFWWw1E0qp1rFlMzllAeT+2MdWthk3sBaYox786KDxaQ8dJc0EtTetyYbjR4v+a4Q+hpTWvF56bcBC5BNWCbdoh5o8baNvrKda9izE79VvtrX5dPPQdT3F2b/wCOothfBqhRD1G/MZ1pnWW5veftkifd6q+A8iE+AF0SfF0Had+HFZ27/yjbv/59walAGzlVF9SMq4fucUu4JNrQGga+iATkxppCqla182i4oIUFMFVFiuOpMbE/dg/SFtMavw4l6+kE27PYD0QvWxGBOIPPttgfJKEHsw0LF8VTwDXnR1ab0nukjnsS/+AQnTR7l1QmD1rQ3Mtw8BwPLejlHH/Tt5ac/C5/5phnrJ4GrHnwmtzqdJiBuLjoD1DlwGXqGt9NlyVF65/ECGRBBwE3NbPPj4jvLB9FZtiTK+8oOWTf5BIePp0Cqjrne4rvA1Hh6jUDu2pJOQcZd9M8jd0fbtVoAtC1YfmUirlCMAq9j8C78RxdNuBvTAdEDK6X04tBig9whD4RZe+vue01cXhqRN+kRKCaNj6Zwr62evLC0fotRM5AbTVp+12t7dR+3JhzBWHKEh4dYO4Aa/on4YmfQQuEZ53Ax1N57Qa4MGXDJezciz9tMmCHD60LTmSTCw3UJViaZp+8+phQW2tuRxedvszcOxikInWd4MNm6AkfsUp2neOzEM1C6PZ0gBbMoLQELFYpCwNzxYDlfqkIphhf0PeGzOJmZ2AE5Yz2qHGLo09m1NzsO2TYrrp8XfBAMjinv4s6SsrAGlWZBxstcTv4zF0LsdQwixQ=
+    properties :
+     x : 728
+     y : 191
+     width : 216
+     height : 38
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+        type : 17
+  -
+    name : EDT_REALPORT
+    identifier : 0x286e62de078aac9e
+    internal_properties : CAAAAAgAAABDM1sYhRvBLa1jHNU+kEkiMLjhj51ijcKzdtepO++mlOSbZv6CA3xzEhZj/+Pwd2qgXcwCX+/VN8N4A68TEr9J0qJh4xCMlYt0+0O7PLMnKvGM+P7ZiTCWN52vzcdFB/hSYx5wNW/1+tlVx5UfnFO5fk4QJDYWjgI1X7C8NjtpK4udDrNeyALhzRCfrvm/7J0fUFajTZb5HuEnVw8WGzz9cLW3jneGcAcon+VjyCZn2a65juEWJCmqlu0DXPVswwpxz7qK+CBiU/iUGMfVvwrWyKvUhmCOo+6qr56hsNVatg3ed4Z8OIEmAH2DsLgd9yRlW7W1D95JMR2wSeATzzXSFjAqlvnTXy/lmYW8zeh9Qb4Hbywkfs96iLbLQmIeHfMlciIjFZk3NQRbU8jwOenXpPsXn/vGP4lwTytrIStFGG5wxcZQM+mISR13hGc7WdLOfPe0+sVe/i+h+TTXlKnJZKpN7Ql6wLqVvV92e++wN/AUx/280wg/cBxPH1QeZGa8UrcmonGrL4drcurx89kDgoCpkn7TMxsGkn+hnR7X/lQFLygyUQYXt+ZnvQFMf/8cNlOMS/WjlDQKBbvQeUhzY1XEcSgriwFnpxTRlHRocfBu0p3g41NRh5CitftWt8fgiBM6Nmxoa+1RYMeT/VgyQWMkNn82uGpYAYyZfB1G4N2gndznCYv13Nyounc8N9qUUPr6WWOiyzl5lGYwJNCjs60/KrycPUzHuUh8a8wDBWyO1I50aFLWlKWvqDOnNK5bkAD91hkcNmf5OKvgTdDJ86XMDWAMfmen3cAmTZv0cedbSkaMJ4EyZzPB70qGPErElkVsHD5Ad4BkF/q6RB6eHHEHg18Wr+v26wIMngM7A/PF5AyXZIj9sIco1TRoIIu433RxDyRHROqAyIO6+LX+Nh+OW6Xa8JiVfx4FccDZ4q9Olh4juvXCwc3CJF0BI1Mub4lBehWYGrA3pmmCf4x7qU9yUmLdM8GpKFldhHR7NZKaEztLDX8LiRoLnmfRgHsIx0z4e8VhvVCC0jCVuXppw192hDbhc1v9rxovLHLvBJ3meamSfSIvb7TOliRRofXZc6S9HSOxCDMTVYaq23i+T0y+hZU1ITNKVW5SVjoaHVgBAZq1vRXhPN2N07RpWMYBQTdEqCTB/B7b7h/lwSGeMd07Nateq1tdVHxYjvt62rdkKuT/ZRsB6w==
+    properties :
+     x : 728
+     y : 232
+     width : 216
+     height : 38
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+        type : 17
+  -
+    name : EDT_LOCALPORT
+    identifier : 0x286e62de078bac9e
+    internal_properties : CAAAAAgAAACfWr14oARFO5kAQMuLuQTY1g8uBBa0JnKUDBe6g7smhD4C3RaRtq1W1qbedyjzPBOtsZT7vETYi7U3CszNCQ60U2AAEFjQO5iLAThxqZV4NUltfhDS4KG8v+Xh50MvdWYmjMmvr3MCIp12ey7Lu62q2Cr2GXkuPJph1h8vQhUzuwKJB1QKh/t6v16Nyz9RXtVcKVC/tgVNdl8shyLbtJbjhrOiTrdyOCltmfr5sd//tPAJiNtKxkf08vGHjKfKt5zKhAdf6IRkQqZXhpm/irLL+ySjKeHbW/YDpqw+pp7GyVVu2X4yt+4yw5s+aC7yH1Oy5RP4uvvgVIj1tjML+w1Rt1GtnyUEtLFdwDMXuZl8ph6YRkD9lT9xfTh129Fu8+UsQBR97n5+tRpXZ6Eraef/boidvv4g9V+PFmSNDcDWvBKxOVlvD4yfiEkg5xJG9dFbsodsX08ouf4lwB5Dm7MnLeBKGV5C5jx1TnZsM2YyjfI3eg7tVlaDsAfqG7GDZLzUwnUp/l/mIkb4ouPgjvqH27u2/Dfm0zXjSqLsSl/Z3sT4Ojwd8WmjdGT+yGfAkrwqvgzqQdSDH4HWDzpRb9acYkq/mBkShrm9zLbAzljk3TwpDd9TzKnA3FNFykU9JL0rsXBQu3UHizn3aOuOBbPc2qmfbfnOdA8DbWN6qv/lYJmusNGEEE0s4Zpb+S0Sp41W5gWCOntxvmtvIOA7xgHqkNsQAoKJHSXMfgFkOZu8DXwzRy9oSZwmQesTr8Xy5vf8yyzfQTsDYGYfa8hX4GZ+LJOg+K1q1Tw1f1dOMHQ9mvfoWWchj9tCB6I0AkU3pMe7nhP+14YRyGjf1JBI6ZD9W7NpSpZDbYr8dYuGr1QiZoNkChvU4A0ven+fg9LsoMrS2fIgLus6lfxCC6aTjNZQ0M8gY6X+0Wj3hjcBDn22geSRrfHy5GbdYohAQV8m6LoJxam93GsaN2nVO3KE4iUqYptEn6MA/giFIqisi+Q5Y3B0S8N9fddn7DYVPQU/3qj7zMltoJBWqe9BeDh6eyzGUqwPGhu6qQQ/AQsknIyK0s2As6ZgJFsoH7Q4xGWyNu5dCM/qPNtU7okH/0pmq4uH8p9ugpQAqIP6ZmbHL0Cz9KwGdRQhbICEz2jOBiPjn5qYE5x3vLrmSss1I0FoDBBO5SgFjPhUCl7Rir7Ut1JJ2gS+NVfEN05KcCzklT1VR19leZBj
+    properties :
+     x : 388
+     y : 384
+     width : 204
+     height : 38
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+        type : 17
+  -
+    name : EDT_LOCALIP
+    identifier : 0x286e62de078cac9e
+    internal_properties : CAAAAAgAAADE6gbfjHnD9js4zeYTcUkB8ektAcE9rXeNWIjs7SzNn0/d3czF07iEbBS2El8QsYrV3NlklyG0EVgYhEMV50maZ3dP7lVJkVA7AS0jW3xTwhnmsjlkoA5vY3jOQMiUBA/Gfo7yvnfjHYNRPwLGcvelO7FHdXrW++xm8zt/g7MUJHpEFOjMBy7sPiUQqTiQUJ0I2F3CL0Am6E4xvLUop3638tp8z7P2HoyBv7i6SULaTiV/fkmKw4wfSnv9UT0lz5L/ZErPJaxvPLeTROQifudN+yeabDFTIVcn/ETXzNIFkJVRgnxdGRuuIp8ysT+h4w2eL0iNbh/ErG9B1f3jda6E/x++WHLnroWklFtAtRQvfAd6Vn2GdSijpuHS5t55gvoeKYCJ5eh/JTbMuF0JGc7863qMEUz7eEdwrTWZXBgIp/4R9vrC4MHj3KX5vYZG3x+iGFlhik1YKbGHmm2slVRys6cLG/ytdtJ+NRRpWoDQ+nHSLU0yip+AxiO9rr8NsoxlEk3dRj1XTTU/3IRI5HZXhPlwCAVkTKGMrVS+XAuCgs5biL1f8OtgyHatiRxzq1ho13CNbfd7ORkVuCa0jjhtT5XF6RBmzjVro7Qnxt/1Q86UzMlDx4UNbW9/K2W39WSb/Mh5Eo1dG7krbuEx/FPOJYP/wXvKHmjH4yLepevmd18hExL2gfW8T3iL6cASH+sX0tAfmmaVPSgvX9ZvkAlo7P49w2ODFIt5o/U8OvoiJ5+4Z8srhoqtzv7oI145OhijcO3lCBT8fUpA2wsWs8E6evw6CR1BU174w9OiL5QEV4eo6DcY6tN7s7KFz2Y3QpjqCNSwvKgWqkvraceDU2H4dbB5U9v5jGhzEE655Dm7VwZyo2W/g4/VB67HOuLFhqm4z5Z9cky5Qrg8u4ZEr1ibXGw7wIFIBe+61Ivkj4Mt73q5wUlmmfc8PRlTkECj5fDYCl+Cqja9kCBFk+vM/9iiJDyzWodFtu1+NcuaWvc69JhLagMPIWZNOsOSeJmsNErP0bzG6b2NQNmNd5BF9tWgpd9p7YVRiaCvgu0NKy3vnwaBtNPZBRt6FohjLTeLQWEZxRscU9zem8lnKYBDNDXUEcu+2CO8uy0KnkBHAhsdg4iMYClhmt1VmBknky+cDyynk6C+2+l8FAxKchgiA86AkJorADbN4mWCqqOJrNQEGTg=
+    properties :
+     x : 388
+     y : 343
+     width : 204
+     height : 38
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAACmoVLMw6IVaNN+EzbCZ6RfCxh5pVzFPCZhG88znScG1z/Y/PkdJeeP3irLcbXCN5RHeNd369Fx6IvEJqGLFE9HzBcOG+6ib4SBPfY0gUSlaVKJGNF5IaHvg1Ejosjz6t2GLW9jk83MVZZ/lw==
+        code : |1-
+         // The IP of the tracer corresponds to the IP of the computer where it is found
+         MySelf = NetIPAddress()
+        type : 14
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+        type : 17
+  -
+    name : STC_Title
+    identifier : 0x286e62de078dac9e
+    internal_properties : CAAAAAgAAADSzFfDPfUP1zfFMST9GtCclLMrSxb3vOYckS4DdJnGRSPFIA8rNYVwTV6tZN/uauqjW5MtGIFZpF3N/yMIJ4yZ1/YVy08q2w4Xau6L7CSFWgk33hdTSjSSz9Dr3U6M+LsVCDm71/plg8mwZt2bZX/mtwL4PtmpxMeSCg8ZIajhkEL3Xj68vySWSXVGWnvXuYpK+bMR7fz7bIEGmFDzsVvIvtHBacC/xa3gfSx67iFTIjc4Y3yCXUKNjxPnBHPA4UBAKrEX4JJeqHwSFLokccWsXY2z1PD0xWzE8Q6YrGzDvmZg50Vf3Ng1bwBV3CgQnVtW9JOIujmlzn7FxUVDe881h4z9zR5/GU6c9w9KteFKaEW9xwcXl02m+9x1yHygSnIjv5e1wKqfsqNce2YBwGXtYYwJnYzDpRi6XZma26Zq2lLHHYi/vCefTbjMFDHfit4x2QvZh4V7WoWCP1z/cOkwFnYYVbkMydztc5XrWP3p/R0ZllPlSVn0pAkoQimXQmtuKaukRmtHOk5h00YxFlNB5c51nbShGVxn1VE=
+    properties :
+     x : 400
+     y : 230
+     width : 184
+     height : 25
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : SHA_ClientToServer
+    identifier : 0x286e62de07adac9e
+    internal_properties : CAAAAAgAAABy9e+ekCqEtqwqA7/BX486s1QA0ZQgmu5GwHd4r/CHhAQQuDeixLJTnUr7eGDW7y+LRsA905E37pUuZIP3p6wM5UqMdfZ34j836sGNqTmIN4BlUY9o9fb+sgrBpDk6ZTewHtz1llXPyEd0Xlg4RRBeQB2qakpVX7WAbDGU8p9xV1yVj4Fn8G6+DuT1lJFr1VMm+nyXql88RN6Il5ctihxNmP13gJmWWrn9qOKg9e0T9AA6a1hJvQsROFth/02wTNuWNu2v0LFAO8UP4w5bkd8bOvaSKkUvd9rwFRRFK/e855TY1PLRy4Z8ML3iKIBrRsW1e3v084h8Qrb+3vIBPmmH5O5X9eWX5M/b5li7QUec75D1hg3tiED6yR9aVIWN/EX+M+CHdvwDJAuFRBA4/q2S71JpCzq+1RolJMpakagHKwoCoMx3HajtOBaKFm1IOzLm8KgKaMzDnZgVVQOpfRrhNVObq17twV+okA==
+    properties :
+     x : 237
+     y : 84
+     width : 515
+     height : 12
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+  -
+    name : SHA_ServerToClient
+    identifier : 0x286e62de078eac9e
+    internal_properties : CAAAAAgAAAC8xZN2aeqB/IQNDWlXPiBf0fkbx4luxYICuF4QGyqH5eWvlU1NWDQtqExBZ7mVVNq7KspmxwyGtmorhgrPMors4z2rQ0d9Bphshkz/FHPE1Gck9c1XSGV24n+wspvmFQszgnDPLlpSIqpMZzQDaLY78beeUf9D/NPMKGAxTWJ0FsE5dPD6lZgwc4TWPNo/QunpdKhrmVWROWWar49EF0B+RXbJD29KA349TPrTf6kcVOI4hlAtvarNEqBGl5GPS14CjIgx+itODU5u3cTW0VBS/PN/m7EuLVA+uXexqzFqu2VjdhQmaY1s6YdbJhZ36Aidn0DrRb03aT1UzWLosyJ+zsGW7QhFO49BcZucJEn6nZt4UxbK6fLhTkyYjA+DRe7dGaZj1ZqoXAG9ri8X+upNnSAMSqT1VLhyDYrHg7exn/tz+BWxx/KpKJimMaGA6UA2lEQ7U8HhGJpJPhT8ZdzudxQVFxM=
+    properties :
+     x : 237
+     y : 132
+     width : 498
+     height : 12
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+  -
+    name : STC_ClientToServer
+    identifier : 0x286e62de078fac9e
+    internal_properties : CAAAAAgAAACOulHmx6GTvNbD3OAqAoiURV/owjaO+tmipwZZzJmSxpwyiJHI9phJ7lHLjAk+AUEg3pwqJ3bpc2H64uk53RgzTdS3ZNQolA8H+SU4U5r/GIpIHgLvJ7GNrf2qhzd41apoAxgMRqXETPvMeDgcdktpDxAVKpFXKswyLQQjW8mGdc5MK8daava2/f9YBectlksV7ekmfG8K4Is4Gil8uYZkW/wpc2bsllc2TFiiGo4j0UzoqcXyqpZtApGFYPRsPB+jSQP9j+RmPUXE9qO7J4SynJDC2FNNZ071O8UVv9JRtXwvDXTavR+5YUURjTLp5T5QTimnHaQQx9gY2liTzdg9CkdJ5EdJ+wbNW9/Q41aNWmqbcTMbQSyuMyIk6Fv4T1eCppM/g5aLaiboLW9w7tdCKDA4QerWkni+n/9sK92DqQ8g8qHlrql5acWjrYaGtW8Z/PrEbJppTCb7zKVD9VVOje13SfJJmTBQs3sFdYYjtZuf
+    properties :
+     x : 407
+     y : 68
+     width : 144
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_ServerToClient
+    identifier : 0x286e62de0790ac9e
+    internal_properties : CAAAAAgAAACg7IQok5MK56dWFCTytPlwixiucGNKZwI8oSvxi6Hcf8VZSVdP/SKSgpadlEzhaB/p937/sAGV1VK8wzpiJzAsZKMIggklMHtvTcKScz3/JikcbPyii76wYr+KHaqEQtm7YSgil7VBkyDU+ac62jvrANZfl087tn9/auyzURuqpueuZQUNmJdy/EOFLOSODPxMgi1N9VROywIqK7ckCDY9/dVXZVTswH4EImy0q/rjAckPSn6Yf+pvqowFx8x6oN7SGt1DFswFY0aHVGzD4SRtQw/2dOybIrC4jmsArzRNlA9KgYDXb/qh1lKBPm4X/cWLYUdpak4bP5ENYLkPCyBciSoZVO7xfPYi0unlr+xfeeko3Zt4pkUYqo0pvsTBfmLPASQQdcgtSMXDhjcD4pMfhzFeHkjPyjr07COmSEP1GufVs1EsDtGamSnMm6Dh4UuE/XqGgVwUahmlXE7ZETUeAILl7h7mRSjqwGrIoKXP
+    properties :
+     x : 407
+     y : 116
+     width : 144
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : SHA_ClientToTracer1
+    identifier : 0x286e62de077fac9e
+    internal_properties : CAAAAAgAAABesH4ZTV1n+vxcK55LcjJuX1EsiQ287hR71C8Z15jif5kDyPDNpeR+6HoR+oeh54peyShizbfmN7KGAH5UBlahsaMGe23IGs8BY1UzmHC9q0f1TUB1+ZrOTsaa4Wvphc3tlUHLp3S/fWlXlqOJophWEdhz5Ddn0Ftb+fbBnBJjowAPtc8vZuAwFXOPlsv56hOukO09UX5mX6vXxyQJwTlROWkQgVjoOZI6qWlYgG/yjwT3LluOFW1c5cjHfMcZSEpCQYpEIVvmAbLULq6pGe1C60O/VxqJF0BpBHkUMDjlviyAZVbH55mAzmpW6RvcqkpySIdSlOiBIaoBCAOh7sDGHEv1hrFYN6Sa9j7wYiltm3R3hBJAcMJs+ME3VHmTM4g2hJXrb4KapXpad/huW0So++1UDsek5wFJ5ZizcqspkAzK97omw32UBgKHeEy/6C1+Tp6/dw==
+    properties :
+     x : 237
+     y : 84
+     width : 93
+     height : 12
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+  -
+    name : SHA_TracerToServer3
+    identifier : 0x286e62de079cac9e
+    internal_properties : CAAAAAgAAAB3cf3J3dv3n8NJ/7FTcyctmuYzmoSZ1Np7VabhW1S/C7lBb7VkEFbBY5BZfpNESq2oRa2t09L+pjaPoMpl9AeCxpMDGPqMYRqdJ0YN80m0IH7XmrBiqLNiTbTcETTeeEkX6r3NzpmZmvyViD2j5TTpzayIs1wiUKUYYO7t7Gaob5nKZBh8nuu59Q/enjHALrT/PH/f07hOJ3jQq/vNr+oR67mjux9jWO44UMdQ69C/erP3X4KHsEwaLbK7b7PidsF2vWj9loZ89u7R4qzk2s7EkJtVfqsV9X7Qi9TFX4EOm00a6CelAIp2xGjCrHjCdvK+3YW52zN+5JbIZtSyag17zQ5Zvw3B8qqqYWfmmQIdL+OECfNs4z04X1lMIs2vwoWqFDtrOryY/52ITUcho6QElp7nSaOPiJCthlllJUC6egK9d5kPjODTvpa+6Ew=
+    properties :
+     x : 646
+     y : 84
+     width : 106
+     height : 12
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+  -
+    name : SHA_TracerToClient3
+    identifier : 0x286e62de07abac9e
+    internal_properties : CAAAAAgAAAB8hdM5KUJH1Eq8XWNzrgved+ShC9UwHeoUuWcWQH+Wwrfr+JwwydvRXw5aJou9xR1uhYSt6Nqwqqr0YP+C6wA6Vv7EQ/F+INQV2VTc/eOjAUol6ZQgiadGzw6Ot5RYwshp2mXjvDQyWPXbu3NMZRvgQRa5wu+ueYLFs2Y3j7V4r2CEjl0N3HP9JONUqXt6yK1QDbAHTCma602TTNpamz8rHH3CMVoYxISZlqQ2ITjuE6LWM7uLCXcma2HH9xnKFEOpmJyFyehg4XXsF6Lkugf/KGXhQObLHzJUo8jwjOxFSF6WVlArQrqr694V/CYXDGcM4DXeoeeWV5DzOa7G39a0EQI1+tMT6n7yX66q8bjg29Nfi7c6EB3fl9fPzQz5RjqxjaGBBcNgEwC2vgXJSea5naVwdIppCtqTJbw2bnlv69clDB7Z4R4/sOME+G7rtC9t9ZEFE4C3apQ5bqVNVu2vNlTV11M=
+    properties :
+     x : 237
+     y : 132
+     width : 61
+     height : 12
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+  -
+    name : SHA_ServerToTracer1
+    identifier : 0x286e62de07acac9e
+    internal_properties : CAAAAAgAAAAycznAvPee4gtZ9T3rSZKtjWx4wQ8Axt7FeYEPgH4a6VJbhJco2FTEVbpM50oWw2mFdlud8Cx2dWORAfyMePfN9nRc4e4y8MBB2oJyaOCcxvFyx8ywM/crmVEDvUJvkcMwUmE5oqqgIBbSrJgl6OOxXMTHIWzzyDRQFuyPR2ddKBBbrqttHMBsyKtN+/XKObARZGfc1oPw+A3ybhyCKRpIaVgH3tVYbIsAGtD0p4WJp7SUHqBVPUo4nCZS622GiTXmMA1Sl4INTU4BmvheKCxBqzXAS4BtAujjJnH6tvwAkk1ScacVtg2tWkFmWLK/fRkPnsqz71XTQ2MqnkZyB/8m8KzeCxnhQyQz/GVAcV6LLULzhmqq2Kw/prJsXUS7teqOxeJqtyWZuEhMYfHR4nJnhvFSPnohs+M0s5rs3GDZlI8yZmdKeuRacnR4OGq9i3eOQbrTMl7r7u6VBBKefT2bDi2LVO22
+    properties :
+     x : 669
+     y : 132
+     width : 67
+     height : 12
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+  -
+    name : SHA_ClientToTracer3
+    identifier : 0x286e62de07afac9e
+    internal_properties : CAAAAAgAAABCpFW2X1imcj61cZWtI8cgutekyIU0KM/RxYsU5zPsbmnYDq5rjlY6C603550dUPgG172hfMB5wsPPH6mhDn6zyuZCkZ/v6ODnb/Prv5AtvT0liDrH4hbFRSctS9NPo2HrJnXFgMWLv31IiHnh6pkn1974WOGjkHaBCpBkSl5REdjdC2EZQRnSQ+F9ja1zFbXsIyrWQwa6yvTKjvKpRxWQO7YcJs8ePmjP3q+Yl4e/jx4BQtgkm73IjcgYVML5o/oEd6eRTJU/RZR0Zn928zihLcI1eYUmPIx3lDipGlWQSR259wjhgOFCvQciCn2XlI1JP+TBY1Kur9ITYvp3loKs1glKDInYnFMPvmqsphFlrTUPQp8yhmDuX6vsnbr6IxqQPA74Cf0GoxNtfpy6z+h720a3YrhRy+BDJE8TMJM8I3quivzGgPzXedKN8ZCmLb+6akuuo/0/lcQ0bx+QETTDytDjCmYHj4QSjsk9WQ==
+    properties :
+     x : 318
+     y : 284
+     width : 102
+     height : 12
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+  -
+    name : SHA_ClientToTracer2
+    identifier : 0x286e62de0791ac9e
+    internal_properties : CAAAAAgAAABnDm1cjDv8msv89czF11H2utrjSFcBw7zQP1eSqdwExdTWWL1pa+vacPQLlfJw9Tul+3Ue1aF/zWixrJVUBChEjkHObQjCKComtd5QyFGcWrksy5o+UJa9enaWC36GDDRc98g1x7W20t/muGDluapEYY5mBYP2/yGiblXIyR7Y8ImVkU3SPkfsG2Z95hwNuIUqSDaMrZyseaHtth99l3TmsbVQZQKe0iclvvbgL5kVaIP2m6DqaAzju2F4OuPCF73+1a+CG553Wj5rbmXbkmaQScKv4MrRHFftLfDrSR7W4GW1JbnQsf0hz94Y3lye1iIRo5KS+sFq4EwqcCq8V9Q9/uU8BbQzZuL5HQLaydLRZJPxPuTV2wpzM9LEwzugKHJS6JRLgECfS1dFFfGufOe6RfkBL99mexJqR/XTQVU0dAiPZsTk8XzUBKl5p1nnt0jPfW+dWjkgOcP4wyVPyxiEGL+i9DRIXZGa/cw/8tE=
+    properties :
+     x : 318
+     y : 85
+     width : 12
+     height : 210
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+  -
+    name : SHA_TraceurToServer2
+    identifier : 0x286e62de0792ac9e
+    internal_properties : CAAAAAgAAABd/5qtyzaczp+A40mkwERCDiF8YiuzDJL/ee5r4I5TgFE/FYc6kVQIg6BIB8Xw9IBW83pS7IoGI+3eSlf0maEQJqNKi01DlloP58Kzzq5lom9dHxDZrn5omaCvaqnr27hKh4CtCscEoHa9v3Gm+rElaiPVwoi85Ie1MJ3lYaN1+EBEJDbLraQ0QG+KUFaUmyxRoxh/X8W93c5WUSLs8YYate3e/jAsM25A49FqkUux3aIr5jotXthkr6BX3j7OU/AgEfvZmlWOhXCN3a91bFsShi/2mdsJU272gcOn4Of/kg6LjFplCn6Srybegt/EBgEPg9sGN3KOPI7dYmuaD3fLbqV3XV0qc/tb4PVWlKmq/cntEcQKDXErC4wZRxBP+VYmCmznFlI1p8YUEh+GidsZN6lNcjzbVMwWvWF0I1pgPnTZ6TxtlW+PheciMopIa/ii5wD4u6KkKJ72tNOwD6a5LVLe
+    properties :
+     x : 646
+     y : 85
+     width : 12
+     height : 211
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+  -
+    name : SHA_TraceurToServer1
+    identifier : 0x286e62de07b0ac9e
+    internal_properties : CAAAAAgAAAA2dz0+SE/2dsPhVWH3X/INN3ZH6d2ySIDICyBU7POtAl2BttzbYVtfxbEoZFmpb+i8Pu6orx8EYlwish5plWYvfx0FKSUPVHe3q2eVEUOeufCtviZhxwmVBoWKKk+CuHMkLUzD0H4Junb6NGUZan1PwWSIST7xLdqi3l6L1wa/pzCFSf6veKrvECJ120MgAbuhoIVWwWhgDLbk1keQ6kJIKdiHHlVY7EuAmpD0p8XJZzTU3oC13SqYPEYyC80mKRVGkO0y96JtZedsGgwsd+EAHZ7PIEMO8IITYD8QZWOkXC/izrNBiP78aqsytNSNa74oWfFvgQ42oqDTKur2E3ntl/vVf5mxFkPEtcgjXawCsTc6wpiABPwICRlH+infYw017qQ+Z5/+r40/e/FXOoBydYTpS3hFg4KpvoswRmk2ewSPBR/9q4ltC5L1LuyIbAYj3lETbB7r7uTTgtA00wPdvEOXWOmy
+    properties :
+     x : 556
+     y : 284
+     width : 102
+     height : 12
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+  -
+    name : SHA_ServeurToTracer3
+    identifier : 0x286e62de07b1ac9e
+    internal_properties : CAAAAAgAAAB475Ug86TqpLvGT0vx1bfRBAJJOvZCFqPyPXS4amMS0OeAZ9U6aCGZdeXm1aMVm3dXjY0ONsiunUjkLPlDzVfXlBAfSfaGLZGqT9E2he7s9k7iRcX2s6ijIKD9JNVxNLSOPSBE838Pi67n/4OPnHZtdLjcfz3yLRBAH7YXPP6AlNkvrZFb/Ej3wAEw0Sz0r5h3c5da5es5czq8rJTlf0l6eLvNUmHg3rCxFHxlZczV7ednRBAvkIxU94pLawPt9xPsiIHeSd8kudJczQKXbRa288ZmtGRyGpNLV2dYQBUViaP+6CvsJg328bmUkpuJqO6vWdgg27uCbxYcy9ai1H9Pqg5l+vCsB+hshYfESlavjY6VLa7MuXGFUCzXU4xOTYC7cFPUNxsedF8bLOjk4kcUg5PZHUlNfu/qZkLuDRQQFJ+mUZ0fh5ZQRejGZQsTHnB9nUxWhrh+LxiGZ4FdtTq5bRwq3PWXd5WSig==
+    properties :
+     x : 557
+     y : 308
+     width : 125
+     height : 12
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+  -
+    name : SHA_ServerToTracer2
+    identifier : 0x286e62de0793ac9e
+    internal_properties : CAAAAAgAAAAYyqvYnSIcSGTLyg/ETWkIM5ns0H/3TD7wLyY5x+EHLHEoJ1PZNZOeEKngpoUmYsqlWNipc9a8j0wYVPZCzHcMlY9oUJ/gZIKQEt7O7IJO1Q7/4rsaYibw9WOokqLHYQwcmjckR6nIFnzXJjlPTaqbwo1jKfFcROLy/v0dvJb/wiBLGFNrqrbOg35yP2QBdlyX75ttZDqBMNBhkGHNg43a81y4KMsk2lQf3NXAZ1OLUXLDXko0CcR/VIVlw1dyKH9DZuq8FeaGgCPdn85rDKES/NIvCsSLiA5sZBdeWL4yZezOKVOm1Z8boNSqGlcQE6w8aaVs6+6eGF3pCyicudAXQ2BsNNxlnbdJ7ie+rmecybW95CgK4DlQje/j9TpP8jKkNPxCCcCYC0gQAkgkE/R2Mk26a9dssAZbC+7cF3UBfATIYCfRVPhdwD9Gf33U73Z67Tdi6q1h1Nl5BDpsN36BTctZpNj1sba45J9ngw==
+    properties :
+     x : 669
+     y : 132
+     width : 12
+     height : 186
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+  -
+    name : SHA_TracerToClient2
+    identifier : 0x286e62de0794ac9e
+    internal_properties : CAAAAAgAAAAXJWDLASzKlF1iYXu6J+rCiGWM5usBnPwh3+iHI2mcP55uYnI5KMUTuD1b4J9vc6GXl3uJ5chBZtxKUToxXtZNiiV1uYvH239KqzY3ztxw1+f2snJep95hOqd0h7V6KCzllgQLBYEVqJhdisuODlgETi5FKbET++0OHRtUpgUQaXG/hRmG7U6GCm3fAIt75BLj6k+M4PDuA+wRSm34TSS2Q8G6clwu0wA2e0f2r7GHMViQWXVQbSnnfnGGIYH9gp/RumIg0R5H7zk5lX8uFA5AlVlKn+xDpmMeXysFsONcQNcr55q2Pw4zLCLZyxsVEgpQnzf1XQQsPPHuBUjKdZIKWWtfJZUKalK0RQ6vaNtwGmQIEZ7y8JvGhYdcQKldfqy6d8ojJqRbTSK3Q6o5+ckF//g8I40CUlrsfUtA9xwW/oxlxzjjEUNyvEbzB2dZCJkNjmlhFBge8oRsGnXSfchfcxgU
+    properties :
+     x : 288
+     y : 132
+     width : 13
+     height : 188
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+  -
+    name : SHA_TracerToClient1
+    identifier : 0x286e62de07aeac9e
+    internal_properties : CAAAAAgAAAA+SyE7atAyu/qqdFFN+KdIDmFAKe3quPPAiu22YG+OVnGkBQu+T3sEHCoOjJXe0luM4OCZiheDchjaWs2zhHWQxz30m4LLM3xnCh/jzp3IeC1OcVfMbTVlHG5If6cTMPNUKAwVDCgEEHJ5nK7VQpXiqyx4y3sFOOQFbwxyczG1ybp68TQLcuLFOiTpig5yNcMdru2mktRClvrPP0W+oXAzIRa/zNOgp5/1IrVYOSfwWy3QrD0a7T0u/vQN+iHtAj8KIGMgOHgCM2j/C93G+90jfyVKTW9LqVJHNmRtjv1F+EFS+buu2gATlBfPqca0mIV1KLKH7pfsPWE0O3M6hOL4Vi5otQLlolYN6iAX1ecCL2iVLKiJ8oGXhjaNPpIs2mSEx9aafJUcv0uBiBqlTErFNJNd8RHDVjirbVuG2cUy2J8WgjZ/bEHGfO/ZHG871x7VPKPtcZ96sfrPb9GxFKTnJOlzb8lPNzY=
+    properties :
+     x : 288
+     y : 309
+     width : 129
+     height : 12
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+  -
+    name : BTN_Start
+    identifier : 0x286e62de0795ac9e
+    internal_properties : CAAAAAgAAAChT5ovT6CGP+3D9UAzg0637jtXu3nAna6OGaSW6y9+JHdTZfW33zUN/UMS6wNvhHpuJSkegiqhazOQFHnmShrfH2g8QGORgqFQD3kJitSJ2KmXUu8hQ5ot6doH2zoY+b6fuleL9vyOmm2XiY8JtLYWeizNSrn6+leOQGRERb9nQe/kc/JocwXBDfP0nKaHA9NjmvyQ8WOUiijr1DEObjrfS/UIUrn4rLCKE/o4jaz6OyhQaSIxYPVZz+sJ3+5z6D0Mahrk8rM1NzKNr9/wEWmFQFmy6R+3NGGTxss7Jn5kMCG0ukX4SDIEX9cN3SoHgNXp/bbG4Woa8mW74yz/g35OWqXQUfaWWf/x78naTZt5PQe7C+wOOCDuy3xYG+KmlYYBrZcunm8TlK2EmLZg2DUWW5I0uWx8Su3muLijYFj35Y/dLBjHWbRBQJFsTEA9hZU6tuLilx2GLMNvvGqpluNgEMHxaUrPis1vxQOU5vma8DyDSDTz0FN2pHgiDvn555lKCZ8JEnLjRzcUtXQJJM+FpMgO3Jz/+Dyei/GZAWaeZJi9Jflqi1anNYD8avjpQz+OOvpKKSmwKJX5VaqMPTO80zon1ZMAasQX6wtajdekv6AbCRC2/zrBr4wvj/c2Mu6Qjcelobi+ek3lYYlb4rzHrCAMw8X448Y1baouEWNLEvtSKtUV99FJG8LSdj74SqqN9OLzMdsOXHRmXJaMFQu0caQRUbBbIPXdqxKAY4zWbkGh2bRhyOnSoWO9Ea6nTXCVuNUltRbpqbIjMumb8XBfh7Gp5ScjhMr29BHAYK0mPmrTuTnImTdDdpkKctClfT/Chcsp5dB/pQ6TEuBW3DsQbfWhniQ/TGALNYB9DYAIaJiVacmmoCLkyKbuagRoTWUc9mU9shDcy2caVw/S2QbFUWO1l9i/nvR9OggTi3M3XGUyfeVfjEmOCvvdQ88kS2nJbT7GVEM=
+    properties :
+     x : 406
+     y : 436
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Checks whether values are entered
+         TestValue()
+         
+         // Check on the ports
+         IF EDT_LOCALPORT = 0 THEN
+         	Error(<§$0014§>)
+         	ReturnToCapture(EDT_LOCALPORT)
+         END
+         // Check on the ports
+         IF EDT_REALPORT = 0 THEN
+         	Error(<§$0014§>)
+         	ReturnToCapture(EDT_REALPORT)
+         END
+         
+         // Start the intermediate trace server
+         IF NOT gclSnifSocket:ServerStart(EDT_CLIENTNAME, EDT_LOCALIP, EDT_LOCALPORT, EDT_SERVERNAME, EDT_REALIP, EDT_REALPORT) THEN
+         	Error(<§$0000§>, gclSnifSocket:ErrorMessage())
+         ELSE
+         	// Connection OK
+         	// Grays the controls that cannot be used during the connection
+         	GR_ControlToDisable..State = Grayed
+         	
+         	// Positions the diagram on the final step
+         	gnCurrentStep = 4
+         	DisplayStep()
+         	
+         END
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Stop
+    identifier : 0x286e62de0796ac9e
+    internal_properties : CAAAAAgAAAAtZ0g6iMKeG+hkxqWoXlUTBGjI8I+tBWHNiwZPP2SJu9iC6z8OsivCGEZYksacY4OGfwbrSewPCo3E0x1wBxFBEnvdaBmx3Rp/7csNVd30yoQkpY1pfFfDNEhD/vxBqN69Kc4edk1qFAsyAy5pp8HoPTQarQL9KmVb1WeshdbkEaFuVkCDmufYakzwIHZvGdDCPjGKKFSTbaSzf9pO4Nu0i06PJ8RmNxo/uiZDDMgHexw1L2S7MTOBfyWgt+938CKdWCeEjx0uZmTtG/B4ZTDOlZDB2HsbrMP7tWiFSGjujIsUVZcWfNhmMmMmWk0m0gU0lkztP8t4Fo4YCv0ff0w/X9Jr/ZJtgeN0ksNdjqeCrJOKgm5EIPSndVzNQ4GDUNpTuKWGRPBD69OkGuIq0lYKhW98SSn3k81xyaBUzvbGeijzNVmOgT4NB8IvJdru3vd37qSoQmWzhRSv3mEgEj0J7ph62w0jQ6AFw3PotiovEzXMWIJXM1IsizuKCXXZp4X7IMG2VXQc+S/4S7w40X1WUPrCXMaDNfmY7fKcrLSWwlczrtcperPC3P/6jC4GODMMItiFxIqz7ZyglmBWHObpa/Ddppml3QD9NIHTbPDwjLhFSjUSNUzT8znzTtYMsMlPxxH1EqmW9jFCY4Hw+5i74z6ezO/h0YkCcof0pa4xwQs8KYapIw380SwVcL5v04I3jUe2lvAdCy+AOR6gNjazll8R/v+DAXPVd1keR5tlAXJvoJIo0egAhwdVhuzvyoAuDcvOmkkoR26Iy372yFxVo6WBBACAolRcFa3sBDSMp804WOc69QmtHnuuh8LhMV/hlhE5JVN5zKt+TRhlN0k20jgorDFE5s67TX03Ysuy6h6oFz3bJXtzIUQS9W2T0TEtByc2M9JbT/EL0NIOOKwmrRzqJ+NoHhEsoPHq
+    properties :
+     x : 492
+     y : 436
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Stops the intermediate trace socket server
+         IF NOT gclSnifSocket:ServerStop() THEN
+         	// Pb stopping the server
+         	Error(gclSnifSocket:ErrorMessage())
+         ELSE
+         	// Server stopped
+         	MySelf..State = Grayed
+         	GR_ControlToDisable..State = Active
+         END
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_Border_Client
+    identifier : 0x286e62de07a8ac9e
+    internal_properties : CAAAAAgAAACCUdxwXeiiJ4YmWpHqvwoFY1diLfY/4tD1Z2qxr6S2islJNY8wh2Q7srqVl+Z7se6Bm4RdZMD2Vm+YU6/B5TTl72CFpp9VetkZ9HOwRgE5zDpFOUV3nNEf6m6hYDp488/m5u7ivTp2wjFGKAW7jeZHoxS0n611llwSjw1+Bspf0rGF8xqZMkFNSyKavctKay6VsXeT0/ly7YdbdSovWlXsncARCm5V3ONswzUanSetc8Gcw0bxHWHRU1rhJqSYGq98A4RpOfKZcPtzug1dvSRjSAs+Lfauc1VaFTcLs3r8ulIJQNaBvWLSm+E6wKLzS6VNvXVD5Ecfhn8qMS8p7qpj0/IK3M74OeBHgFZyL5pUpIOmGWpPIFSUigyTI6JGD7eROTBGrL6qh6jEqfdU9O0msyzCHq/OcRbChiWAo23m5gTqKmh7ZA==
+    properties :
+     x : 14
+     y : 20
+     width : 245
+     height : 173
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_Border_Server
+    identifier : 0x286e62de07a9ac9e
+    internal_properties : CAAAAAgAAAAnwcs1i2r25CB4iBIPvr2kZppspG/s0p4oORXk1I9QDfwbZNFMsVVDbOV36Xo7FKxlyWB2PEzL2OryuR5lI8pzmrtnx6y4hSMgNtul6i9vjYkvIdD7Nf2zNhGBiNwZNhEx7zTjlDcMFoIHqtbDEqGiyZxPA1gLyI1T43tbPgmOPepSPSrhslTElBe22TVddSaAdHVUV3O/RiY/HRrm3EkWDWN2bDgf/rGM5FPus7+11Ge35KdsozIzpnrooAOQQA46iRfcLM9DobGXs0NlVito8+eFr/s+2R3qyNG3hOwDFwg/cpXkG3Is2Ke2QbbQRQC7fhEODhwK2w9Q3p2m+FVK1q0qO5Vwkxb3PrPD22+YGP7mq//ExfNYEUzrlLUpg5aScf5XAYUv/qA+NGwXJu/l9Enui29GhdMnU41GlPM=
+    properties :
+     x : 721
+     y : 15
+     width : 230
+     height : 262
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_Border_Tracer
+    identifier : 0x286e62de0797ac9e
+    internal_properties : CAAAAAgAAACPoh5fI/sa8Kx02XX+e8W9sCmb8GQkeAYis77I8cRfMqf/iHepj+pN9r9DwosMoa6K4n2lpt4YaFDd1WQuIVmMnz3GFKpGxyCWhjDHMXZPjP7jti1mEw7xMym3Q2Cbz4Kn4oPLWyobk7KYxGuSNR4gZe8cDFOIaqSxzzLGze+lmGjWGGgW04b5pB/DDmfU0IMnwS4rkaFCtqDDkR8xi/gGzKtDQQFn0gYRVyEGPcRuY1zlQNTw2nkcmQ9y01YzZ5+JU00qpqJarRw5HW8KA1wYdG0ogVo0r+7y3fc/qP815e1fcnE89vk57oqzpURu1EtHQo/8S4dkkigmkQNjtCi0EeKM11Im8jITqI9YGfAs1YZfTl6WSeW73OuLzfJ5rSfc1pnl9B1ht6LDZliLF0x8WETvBwpkEjvUEj+QF2vT8GFO/AoOuww=
+    properties :
+     x : 381
+     y : 230
+     width : 218
+     height : 237
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_Explanations
+    identifier : 0x286e62de0798ac9e
+    internal_properties : CAAAAAgAAACDSlTiN5pR1DgMlTJePoGRQ9saXbJ8vhPGmga8X3wBfxqQIbIm/sUAQK+y8vFgg0lwYHHeNmC1JSPCCsNdvJVf2qXJmbxJQVVj4hDbjQCJJGiQGJuLt453DEJ0SZJccdHAKM5u6nnZrSSILAv/qJ/ihBaQR9wdcyWoQz7VluXEIAq9JzKysP6Ey66UjT+k/nsgOR7pYIoPomABIWyxvUULTKN4zegRXiQLCA2FPE75fYUkZZs4YuwDvO1BgOycwEtRJ9/40cf1pVFmihZ8RqHdHjavN+t7ofUv7Ll7bZDODk1BdVNWODktkMD2jS6JRRrZgYB9Y1J+X+5st4HtGbHoPKb4d9Edh0JoyJ6uWiX9lqxzp+I1tzZyuLLIIHSrwZ5Xs4vIEDDMcQSEj2G+/QAqv2NnNRMqB2Ks7XeOTKLMOpLei7OLm1o4SqFtaGJ25Y/YAdpCUsdOgkvn
+    properties :
+     x : 8
+     y : 615
+     width : 591
+     height : 119
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_StepTitle
+    identifier : 0x286e62de0799ac9e
+    internal_properties : CAAAAAgAAAAI3LfSXYXdOdG3D4rD8+0uWmdVJSb9sOF49q9rtiM6s8uVGOT5Wtwd6RgnnlxQboRJYSRlj1FQKUtL7bjjpNZp37VZ/ZEFM2qe+9PHgiBe2IC0LCi43HIEbs7HoUY/Q99LMYsvNsBp74gSuvTNzgIlg1LP3ngXY4aC4lUgp3rlZzuas8l9sTBVhuYRXFmbUQZeulXVVvTXeKu8B7v2GUdAs2AZesf2kdVhjhed4RWUiy0cPZBzdQ01XqtXtMwbaoA7gpm8WveLo07pzn1cWZVF+t4w5VpPp3lea+MJ8LTTm+5mRSoJwAITpRKlSqKbwpUsmAlbjtPHWKW9DB3ng+bPmZoggddAm2bw7ZDHokIHK++QEB8vKkiFJtuyvUvYGNSLIKgwDeFmyLRAaMEvH74q/D6F2oQUg7St0bxBmCJEU7U+dZoNWs8qkqhHBQGKl7TSoE/6IpUmSiA=
+    properties :
+     x : 8
+     y : 593
+     width : 591
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_PreviousStep
+    identifier : 0x286e62de079aac9e
+    internal_properties : CAAAAAgAAADEUT/0eHKuXKUsltRIl1puUx7vIih+aOAY9hHJmgn1TyGAFdgoPY1ucJ6IxbgsOxm8pgjqQu6W/BPkslGrIGv3e5Rs3jtr+1tLJCamUoHxSu/BY2IrXLwB/QKSCQpdGkcRetSxnQIHcdW8iJ3l+cMMsp4Sb67dcag1tpAcmcqL3YdqofOtHLw4p+YHIL7+KiamFNb7xxyvAVBgSTk8YyxXbN2rNZWSlsEEDfzaQj7Rbr8zK1wG0ni0+qqdeJ0ta0hU0BmRfcbMkB9yAnDLILownEph7u9GP4wcYWOUxUq/1MhYBUWpGphjZ3Z5SZpK5T/MXaWgK1KOvO78sQpsQGG3Y69Wmy3sQKC5zg7SBftjpNIPhGmMu3uM5EeK3JqBXYcXwvfMeUe/lB97CRxRiYJLZm+mWDu1rH6+svcpWnpYDavV09kudO7Y0bs3vNQGFNMsyfDETncFY4Y49AOFskPpdBjRP03tRJcYqM9OK07ysdUK7L/M7iciNUNp+DQg8l8i0NX3SKep/jHOPrOBfnsr079D3w9QYFbyYgth05104xxj516R/1J3qIQBEvLzWHH6dxPCYpJ4GQz6E0iheDbnEezSypATdeJJNQxprkCNU9pSmXIBe1QmoF52DeENM6VtwDXb54a1aFpmavAyJl4OMc9ZCYm+3Co4sY9BRxKPfv6LIY537I+ikHLMPy7c6W8YNTG8spb+aa5nWczIEU3GbicZWxclHBoQNGJAywQcg+i2SjkV1tZhBH3sH+AmNRTxnE0geEeDDAVHB7BE17SopE6SbdcOsMpN3rfwKmrF9Rs+1rApV5e/uGrxxnXgVCcdwnjqCxBEiDu+NVLm6fjhb10r0HWYf/l8i+3jFMbHIr+BESa8dIF6lCHUP72/Si0GonVMVMkcsyCab1xOFVPEuMJuQIsGPJI2lIWKgfVcvsApPr4D4aHgIaPjHqnuVhQr6yc=
+    properties :
+     x : 8
+     y : 565
+     width : 143
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+         // Displays the previous step
+         PreviousStep()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_NextStep
+    identifier : 0x286e62de079bac9e
+    internal_properties : CAAAAAgAAAChxt2DZpY1NhtsL81WE0PWQXGY+GmOhvrBKw2k1FnntV/ptVKMgt1ncDhiGmhpn8BGw4gzSg7Vfa9kHvcRPsrr9XbuRf3K6rsOOwA2k8hH2mqsBRSHaOgebrJsyRNh+CA0CHrAqMucZRuewmU5lPkoZ5fgYndwFnz7pQPYI1ZMSg6Yg7KcdF5tWftGukeJoVXYp8P6MLoqrHLlk1+1EvgCemEU2FSdTq7PiDA0fanlFr0WF96+9/Rrkkc0IapC7r8jrHhUExJK27Pvxeas8rycJ8nnzV/reuadO0YWgBB2qfFZCRAfEsZf6iLZeHJ978V5WhkNuiT5bRJfkXEx3BjgoANcQtPrXGvyiP+m6AV/aHhCuaC4Ukiu67opGgothScnjUzC4RhsWyozEa3xI1dTOdbBX6GOeCNakzXOBDBUJDJJS9GNg1eBPsLau+zNc05+fgq1JrHnOpDpCOCe9uRJsQkwCdboz61vhIoIMOMMRu3n/E1ezt2PzlLxpc11ZAlIraRahyp3ae9fMNty3QRcG/HYs+2ll3rEJ7QEYoAH3QhoonVcePXN3AH8+78krdEMVA7nY1U7FFXLmhSjQkBKmozpw6e3oWL/JY4/X3TF6bymC/pWJzaNc8BhiAWuT/xLgXRkDDtEH9dxFWukDedJ16oNXhkJZdzUWooo14pojpp+pgtIbze9PuEtBqnC6Z6mVMSHu152sSerzBM7muvcsPh4vjyITf5imw8vFpeErrtl1+yhKEihpkjpfFa2sdX6I/FQ0n3BOSxrFQyj1pOq8CSswfUlyP5iDeD1OjHJdYZ8iHm4AIRx0NwkyQxlz5c7sWPo5ohcJKOiAlu7BI1tL7yQef2SjwS6I1WVWegfogWDPi4I7IOBuWhedZ2DaO/dTOWWNSPjkVZIijdAf80lyGImGp0Tq6w+YShekyaXsxdLeEN8xg+256ig
+    properties :
+     x : 157
+     y : 565
+     width : 143
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Displays the next step
+         NextStep()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : HS_Legend
+    identifier : 0x286e62de079dac9e
+    internal_properties : CAAAAAgAAACkeNTWvVFzxMVqWESk8CDJMzp11t5b+n+6FF0t3VYUdo9IhY5tmdK38j3qlqumdiqWfXPsmpnuyQaIsSQv3LCyIZqvftQsO39FcvEvO9IebKzEcaRqPW3gSeG835Ll3Z2feK15k+4VtMK/NkkBl4lYxzTvaFUUuNc38PKt/tFkW9pJjwshQoXiklfMkHeYz+uUH348AvGHXUBktRaFuheEDwRvUohSQO2ZgcVFFdG2J09ObG0/oPBtRQNM/KHvIrjLR/nkUXtKonKE5K88Tskejd6OZRb9MlZgBo6wZ0KM8J4VtqQdGGV6sDwyg+nFkdQG+ugxXBHIk6CSRM8rbjHnPsCyGuoUuGoFv01OKvYdFFVpTWWA5BRiQbOkCb+kNFGZAtx8hgfHq/QWGoX8AmBLglTr1r8td30ijUqAt/u5xB6n7tmO+gnRbITrc+kLqNEufHjR6TjC5ow=
+    properties :
+     x : 14
+     y : 199
+     width : 245
+     height : 326
+    controls :
+     -
+       name : BTN_HideShowLegend
+       identifier : 0x286e62de079eac9e
+       internal_properties : CAAAAAgAAADpm4Q1orAunod4PlBso0xUfldEw1/7fs7GbhiqVWWSPDB+frXov/LbxhbKjsk3C02wzZufzpN1kGKpM2Sf0lvLSu9KMsCHldBs/1s0+pqf/7KOebNm3Sf4hTMrwK3elb1cYwlPmrTUWnFXHMTIyTUDGr2RHJhsDTD86YKe0ny9zvXWszgZDbLXN6RHK3+X0vjiEDA1qaYy9kE3+DRQlXjrV/pW9sTWsMnt7OrwJfWu1CvAxibFTnSv4DItfXKJsbTXaRdPAUpkDB26LQarHlzejuhzzwZceX/UxfPrrMGPSYuBHaTgtn9npHAsVoVvL2CggGU93mfkyAkgMO11t7L4iMLBeF5PKuVlo1oyIEnrymipYB528oTWu+iUM/x2LwIMOJTbIpo0dZ0h76SxdEdUuODpUH3IU9N+oaQxnIyc0TEGMBGq/qvb6XukeMj/HgzGdJuCupoSO2AIZV4beRdtHC3C0h6txYoSvOCiMUUVlHx0VwSJ65sx2j3sxmkg2c28IXV2mQRMAoSj6YBQvpd15Mk4NXwEQclXTxtZHKn+CZDhvdwfHXSLgNw4YT53JACkkyNwoyeM4PJdJ5UQEqTwAiexneVXR1ufdAJhaLssxUtUx0sL9Ztbp10mu4KEjm/35cmM0B8UWV/dM2IizOpCjAl3N7dAit8zj4A1zM9Zadh1M8q1PxRHxLTc9y0cQ4lIVzb6HstpQlU4I0tfARp0/1e10qID/qBtcWoGhfrRqREPkUKUOXMQwFSaT/ocGgG8t+5XIt88K4JG+oakFTbNNytpVI7QwFx7TUK8AF8uZ4FkJtYlscz6B0U+BRDGC3Ntyh2LkPQsWWBYNs34nQhiQYZK
+       properties :
+        x : 8
+        y : 3
+        width : 216
+        height : 21
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            HS_Legend = NOT HS_Legend
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : STC_Legend_NormalCommunication
+       identifier : 0x286e62de079fac9e
+       internal_properties : CAAAAAgAAABAUC2ypifv0ceNtvGotl3NpXkQUlfF5DayhImwk9VULlHP1Ge+NbpAzZ42ESW326+EtaWppo6YiVG3dDIKWOOQ1uaYV3yBAWzVXiYEGan1GPmUUmLAOYr0r/b/0kM7wSugI0tY0dt2ND2yHcRCz1UcSQO3Odl4Ct39RI3DiGCYFB7t3yjx6oiNB3Jd6OJVN3p27ASFzyEMNNYOHbif/ffbdJEE+csBMZQd2gvNoymkWxrFe20TxXaTAnIz+8QjRPwChh8/Uj4sZMKYbOQ/DH1dAsVTETuEK9mrqBRttHCf/uiXJ6IHt+nvh6mrUgu5vW9ZntgAaaSyWD6tk+BWR/fwqVXYUfwkJEVR7DmV3ojtsi2PTDvXqKM7U/qxO6Kwj4ROl+4+eWDMt2xdnzxYY/dzmTKKHd904xZ5/esEfcOlQhyupNXMHRpVRzEjT3/G0UZft1V6tSU74BBqZiMopxh6OOg2zXc00C6xKmajCm1Jv65XSqyROEjWLTzT9gKy7L9VlmN5edD8cV963NBCB8V8DXtTfvniOSLRBzGs4Js7sLAVTWrcCcxIe3zU/hRT4v0f2WpnScj0cv7iAayjwNOCaknB
+       properties :
+        x : 56
+        y : 31
+        width : 181
+        height : 89
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : SHA_ClientToServer_Normal
+       identifier : 0x286e62de07a0ac9e
+       internal_properties : CAAAAAgAAACPh/6NKsmhcIC6QFmRuNxoPgdT+NFnetMg6CG9rdaM2XRmEZtflfUs3Rf7Mr52fgxuJ62LXanJM+uJkJWpL5GNa0admwCHklig370U0FplvC7MWNFrkOAXmXplp0wj2mD72sNvMmbovnUg6v5j396I4naR1jF3SMm5rZGkg0VAd0/g2Ummoy9EwGG2EUQONIdAaLnp28mwVoQz3JNvVbL58vNczYcxn46lxc+CfmFzglQlAZBBF9HWJpjoLjsPoCcoKDXT1BPG7Db3xm55J2BqGW5Q1L8kIoLQQ5BKN3eJWHh6q3rLTNBrG/0w6bb+L2hucraaMF0q4VGrVX/xix7LXmn0iRBvEcBlg1dhe+IR6mapfGynvxSe87y7RNmyRFT9SsYq6TtU1XDHue/M/7o2lJw=
+       properties :
+        x : -3
+        y : 32
+        width : 55
+        height : 12
+       type : 20
+       code_elements :
+        type_code : 32
+        p_codes : []
+     -
+       name : SHA_ClientToTracerToServer
+       identifier : 0x286e62de07a1ac9e
+       internal_properties : CAAAAAgAAAAiFOqCW5U1HBvhMIzXbQGDXXECJcuINg8UCyMFXsFZch29PzVy6oKvg5swTjm8d2cGUP7mqrXDS3TDdL54jCXKT+Z8E0n1bp7sh9zQ8IqzLjXILSS0SKpt/SmsMNEiOj+gR8mUu5eoMG2cAELzdWdrnNtX2Bae93woGvlt6TaSnHY5rlNglL48ktUKRVxGnBs/0gjAsu64nd8e1memgtfvIUPV8T6in5DPCxE8o4wshzuZh3e2mqkM3V5urlwMEJ+h0bhW49NaLUekyr4/j+Lit6yq4TrMTBDN9u2aU+bknNivPE/vIc3JIH4Oz4XtYWOjhWzcQDDHdjVaRfX6Xco2A69ElhKisGMXSv5suGHTrqwXUBHzS26yqEPDC7Co6YGOjMDGIxrSYANjIEKYUqsI9v6wXfHhRmuGlMrUVGN0YcvI3ZduZrE=
+       properties :
+        x : -3
+        y : 126
+        width : 56
+        height : 12
+       type : 20
+       code_elements :
+        type_code : 32
+        p_codes : []
+     -
+       name : STC_Legend_ClientToTracerToServer
+       identifier : 0x286e62de07a2ac9e
+       internal_properties : CAAAAAgAAACxjO29d9KqCgTKHMbh/6LFbmNuWz3SwCAQljlB2wu0FQB6U6VQLie2woCRn/DsrboAz/R5N2RziE3/a+2vU9vyWd2zmALxQnG26jZfwoVHq5MuFbLBj5UjmcFUcmMEsqY5+nfFre/IvtU4fAW1Qwl1fTro48kteo25uW6F+8m4axI9LgQ0ue9CPD0vaI7+J5VSpA56DB3M6Va7brIckEK08TZz3xnjT3TetxjmyaD39HIVJDN2lZp+jhLVhvc2mPyEtyTwUCI0apyCS6zjhQEXkGdqEtN1MWzGdPYKsEgF3HADHzXDtBJ6jo/ASy6K5e1xNezjNggHzEGDo687B5RESqGnWD/v0Cy+ow0nfOY6LqExSA8kFYfCf9rdPP31y/LsOVa47gZ90c9GzZ7yuCcrabZupyANzhBMU5RoM5a+YTlhgGqvLwCp0ftNvB7Ih/Y7K/GI/F6fs1xTmW2/viNJcnJotpn6gH2ifk3dzA3Geb74BPTEqcdEm61qSf1U9WuM/nuqJMe8A0UZnKDF1WxZX//Sr57bNr8aD3RInZtMyzHoRBwU
+       properties :
+        x : 56
+        y : 126
+        width : 181
+        height : 89
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : SHA_ServerToTracerToClient
+       identifier : 0x286e62de07a3ac9e
+       internal_properties : CAAAAAgAAACFanCmhn1ArqjnblTgOf9C6uFHPKFuFALWrDSWzRBNMFRXYvyARhSDHdR0B1dlXhTz9Zx7LX48Bbexap1gqkJCF1uLGBwjKTmRFsyO6auzKcaA7mRXziayGxL34l4jEP25s9sguq5tbWA9blp6FP5bbEFa5px0NVr+lhWL6BNCI5DyWnJB4RwYIGrmHPUmyFMk1i6WdtG2LCWmB9c0olhxAe2RwAKKx5N8hA/uCiyTI0zG/67OGPfZyGOKOgGOcw1E5gxh/Vnbf2lRn0JWn7U8wAXQ7AD0dhfm0/1qTMxVOJwhPefoQmwNxspzIsOoIWBp+ZGQR+cawCFG7tz0ymJbr383ynejSUUrWFMnPkLTG8pJQcF4SBeCmgtsQp7215Z5wGclzjLCR1+Rbed4jEax9skAA6h8c5dGGTNLxY4EGGMBJRGJzWbIR+8=
+       properties :
+        x : -3
+        y : 223
+        width : 55
+        height : 12
+       type : 20
+       code_elements :
+        type_code : 32
+        p_codes : []
+     -
+       name : STC_Legend_ServerToTracerToClient
+       identifier : 0x286e62de07a4ac9e
+       internal_properties : CAAAAAgAAABFJvZrGoTh13765pAjmumfYMgnvLAed/72PNJYtSyq0nVbKWGicZy5H5xB6n9/Y/0dSBe2bQl2ctzQPSlKGIm/+1408NxNkXShGbob+RUz63VV0PXa34rKdQgTVGJzbSAjGS/dtK6CRnswQFYPVspxHSbmT0DTJbQRWMvHp75ngJPEfOCUOVZtNgcJowgv514zt9lRbv1aNQYS2bp5q/ngA1ktRa+b1uvm2bjWP81PY5VYXk126XRROAlmS8U4hCSxR/F7OgMM/qqotF1GFdm/13IxIlK8G2jJh5+2rma+fx7gMlOPkcSrAjEJrHYb5PTC4fG9fbKQqdZjFRZciM8IEed6fHL8kO31jzWCM89hlmQJnkbBaaJt6X0BCPuEf1vcevEohhepJ7rh67YAxzt6BeFXKAiQMgd1fB/cZ2SQ2h3JqlmqDvPYom/tNvw8T8X3AOqvqXtxXD8YL86MIhAn8xKOpVJeo61OmN1SuK8XMStubHVzbUhZsw5ypQsBNW97vp7q9vRzIWx8urxBE/+N9uI/+lyoYgLpoaFxy8nr7WYbSD8=
+       properties :
+        x : 56
+        y : 221
+        width : 181
+        height : 89
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+    type : 34
+    code_elements :
+     type_code : 86
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAAAmIdJMWyKV6CMu81YS50QvKxiJ9SzVrJYBG78jPTc2l8/ovPkdRYcPbjpL0UUC9+Tn+Ienu9mpoKO8PmlDXIfvBE82Y5ZKJ7wZde7ceUzdcWohoPkBSbkHmwl7KiC7ogVeBZcLO3VM1Rb/Fw==
+        code : |1-
+         // The hideshow is closed by default
+         MySelf = False
+        type : 14
+      -
+        code : |1-
+         
+        type : 17
+  -
+    name : BTN_Exit
+    identifier : 0x286e62de07a5ac9e
+    internal_properties : CAAAAAgAAAAfoEr70QASVlJuictTE81WLIXd0GGKnDrVXnKmHcyrcpm1PqNX4gQBBaEsC8Tep2o/iLKbtLYQVGyDxHbqHPI0l7Qtis/o8Y68SB3TXHfxocc08jiCW0B2Vpl5OlErnDBlonYuapVinC1VhdgSUcjSupsBjRdOBq8THDZOzkPGH2hUTCWdG0FbQlSyiHZuCtO6CjY5zvc2GUaox4/1u7UHcF05OojiYy+1jRD16UGD/fqAuFWVfaT36IXjpyhWnmu/fiA0OZy1x88CejlrHwyRdRuYqwRTootKm5tXm/rucdya5PLjk5Benp0TqQsd86l0jz3oPV7ZFxVZTryG1U70+5QYX4GrU/NxSJY0ZOMrGVOKXlzJhmSh1lR8QW4MH3FJZhQOiRRvKfwe+pElLNvUXxVkIQEGsD0i5nG/bOfBOviC18fGgx8j7++pucUsPxy8NILIQHrlDQiO6LKQEGtvQJcxbImlZcNyonTF2ytToFq+D/sKQHOreKQlUbIfMbl6cUseITM/6EBfh8p0IYbuhxoueIK2tUfdSZHL9AZYTSuNLYsxR1JcDq3EWeuMMoUqcm+b/7nebrwV8vilQPfiYjmEmaMDtpgN7xc19VD4I+Sxh3ccRmwcJ7BdllfMxqabd29XxsOqjfHysr4DLC4CQVoI3i9o+WSIZCSL3r9XXOGRdBE+wU0kfzaaMzfdh62KLinqXEiIXxlk6opWFeBauVb8lcnM3dE5HMbDsObKItj/YBuoHLCwO+YcU6AJnZktuqdjbdVmTp4ZpqXsZt/PaGztTQhRuZoTy/STiRKG9Rfq9e9uZmt3w8gv42jYAd+OhSaA1EJhaEtwOk5b48YP0A0qNzXSn60P0MRXxw6A6XgvwJvCsU6sRykmUQ5YQkKJf4d37EVABW8mHJQ9xFnXeP+at6M93oCvSCEv+MbrZ+WuMlAO7dgmiHuy02wL
+    properties :
+     x : 868
+     y : 704
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADQZyvpRjJZltgKBVFD+SKMukTEU1n2G2jmPSjnx1ZKdSF2vB36egNKcReVrz/xwpIZdIpZoyUu0CjPxu+MpGLAedmE/39iAmJIcu72BpKoWkpseLXy2lnJGPSMFw==
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_FollowTheSteps
+    identifier : 0x286e62de07a6ac9e
+    internal_properties : CAAAAAgAAAD0e2exzBj3qBv6ycExx3INuZW3A2UU+i8d1RRvzuTF4K8ZhTJ304trG6F6qcw8hBuer1ehVlSZx0QLEDz79GiwNJSnKBNpaFBeq06HXauXOpAxvVjMLWEgnrNdwocqomLKtjrRYHicUIb8WGrNo8aJCzyILJi66WcZU70rkVTMqsYRpeOECkF/1awKYhhQWozORr7zBSaiDu9eBt6/XCEwkRXmrC17d9kRHWv5E2/gK6CHn9RWND8B1IKDOz5ANGxpzuqDcbqbIs8/vMvn7pbEV6XP0H5h5WscnyrMa+kozF2TMi0klWSBcXmdRu1Avzr3Tr95jF09Gm3eJwYQx15LH4IYlfPskajIKxZyvSlM39b3x//qVC6zGAiImzGC177jwyU6/fVomw6qLQ7FHJfQ2bUZcUA5nr0eobnorGDolzJqFvi1TP9e7PTTAwBEDxtAKcZtLEOsRvY2PfwppMPFLpm+4RSWSOhIBnHsbR6QASR+0kMA7KmuVA==
+    properties :
+     x : 8
+     y : 539
+     width : 322
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_TitleCommunicationType
+    identifier : 0x286e62de07a7ac9e
+    internal_properties : CAAAAAgAAAAcZchlrFuW0tIjRfS2PBzcB8JAGP0uHUWFyeujdSLeAIOBU+/RzPtBLS9S7+vqAejqE9ODuZFZ/g9k3kVoDDsMfZQTNxrXngdfO75hFxI5kQkCIwkRNozqN+L0U/PryQ8BF+e0na2LIJfgkwswFeCatq4i4oDHNgXT3m3YLQiao/Dj67dNtxvrFkL47MLjzzc/usgyYE+QB7+s/y0gf3MXEm3OUXx/ovmAbOEu29iYIdavdXXAce5ilcl4rvhXM4Oq0mHUJRHGL+EXFAk6kvu8EgoBs1AfVatnrNN2BASGC5SNlIvT4UMeU3IbNXs5dOYKrjw9Se+VlfuaC4a9mDXv5t/GVZBftWJWA9TURp5OMR8uw/CHUsJ0/XkoHlEJWFO6gYquPhBTwjodA2prjPEXM5Bm0B4P22AM8TAnJfD2PJZkE3q+seNkAuEg/pVnyjHBRlFvGZpKUdLuL5fRKjBna181d7M=
+    properties :
+     x : 338
+     y : 25
+     width : 282
+     height : 30
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : SHA_Shape1
+    identifier : 0x286e62de07aaac9e
+    internal_properties : CAAAAAgAAABaKQb+4+Ej2Omf+KhsWy5TwAF4uu1t8V/1FgpRKzU+F0pWDnElEzwQfZpjdl1dg4mxZsYScGtKJfKfnJh0JJF4JqVKuVn7QPFDv0Z5/ZAnMnVcyg0e1gBlGqRu7lv+DjXKTn5Ttnt+HowTpeVzmKRuvUi5eeC1qzIuetzNZpOJ9fqm1fLFo6GEHpxyrCBhxNzfHB9ZoXexwNVj76vMvuhju4nrd6Pvz6OKmcjzGiaqU1aVpWeq0JSMCyQULaARBRjKK/hCgGiHaBjcevqNThQnCDnVI9WcDvX3BSA14JZiVz4QcKCQ10Lrk+Ij/3l6+yChb/CgKBdud5we2BRPQuyYylQW9/ecTv+Pd4K+wbHYMcucHbIMdQHbxeOQl+ZFBrjITiJnfJkjwg==
+    properties :
+     x : 8
+     y : 531
+     width : 944
+     height : 2
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x268139e14b3614f8
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAACVDW00m2hMOUV8+NIURanURlDeosNApEzyOOEVlV05+o/bv3ia80c4CnVEfR6ELe8IhZxiVrD+2faHr71e7ebAWeBvt7sIykRd2JMy5cLxtUkRVG6bJF207GmbzQWg
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAAAL7KdXgbS6HN1MbNvWAj31RFA7T6EYHDSVxZGTMWvDr9+WPXkc2JhodRNVekRrFxQn5TGQKjU/WsH55l+mbZaB6NL6ZlY51KHXCt5pYSbVgheImn+YOFJT86YGGfrg7qlL4bDliIzQYLRvN75t8KoMVLlLhIpaYagFzdplaLaPgUCwWEQ/lj4MWBZ+yj/rUXBCtAggrbkVuNwxdEr0RodBJLfO4aPkyE31eNvfOidX+lynB0hwxMVAVnduhNLxgJkzLwFMWnCRz0aI5zAO4iSzM7Aqb2XXhowB7KjYZak4UgaoSN+nzT3uvX8TYBSRktV50HkM7LLpfSx+tNam94jSNovt3oWrurg9tqUYX/G4oWSwO+znuLDJow==
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      
+      gnCurrentStep		is int = 0
+      gclSnifSocket		is object clSocket
+   -
+     code : |1-
+      
+      // Displays the explanations 
+      DisplayStep()
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+  procedures :
+   -
+     name : DisplayStep
+     internal_properties : CAAAAAgAAABmkQLUreID8cjYV2GmJHu+eQYeSvaxPWY6nJTBsQqKm4zJazoJdBDpouoWGC5YqW6qkgbDFoiVszKO/YYcDpQhWRqIjAjIP85gaPJTW6DvlNU6qrzMgS7Nq9jjw55D0/o6iSqaU5RYk4eyTW63V2oXMHaMfYu8Z/znrHv3fKwcEWGDO/l6VbyZR2TGTkNHckvpkKtC3fY=
+     procedure_id : 1760453209986083998
+     type_code : 14
+     code : |1-
+      // Summary: Displays the explanation of step N
+      // Caution: this procedure is used as a help for configuring the tracer
+      // Syntax:
+      //DisplayStep ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      
+      PROCEDURE DisplayStep()
+      
+      sExplanations is string
+      sStepTitle is string
+      sCommunicationType is string
+      
+      SWITCH gnCurrentStep
+      	// "Normal" communication
+      	CASE 0
+      		sCommunicationType = <§$0002§>
+      		sStepTitle = <§$0003§>
+      		sExplanations = <§$0004§>
+      		
+      		
+      	// Step 1: Enter the name of the Client application
+      	CASE 1
+      		sCommunicationType = <§$0005§>
+      		sStepTitle = <§$0006§>
+      		sExplanations = <§$0007§>
+      		
+      		
+      	// Step 2: Enter the information of the Server application
+      	CASE 2
+      		sCommunicationType = <§$0005§>
+      		sStepTitle = <§$0008§>
+      		sExplanations = <§$0009§>
+      		
+      		
+      	// Step 3: Enter the information in the client application
+      	CASE 3
+      		sCommunicationType = <§$0005§>
+      		sStepTitle = <§$000a§>	
+      		sExplanations = <§$000b§>
+      		
+      		
+      	// Step 4: Start the Tracer
+      	CASE 4
+      		sCommunicationType = <§$0005§>
+      		sStepTitle = <§$000c§>	
+      		sExplanations = <§$000d§>
+      		
+      END
+      
+      // Displays the explanations for the current step
+      STC_Explanations = sExplanations
+      STC_StepTitle = sStepTitle
+      STC_TitleCommunicationType = sCommunicationType
+      
+      // Displays (highlights) the associated controls
+      DisplayControl()
+     type : 458752
+   -
+     name : DisplayControl
+     procedure_id : 1760453209986149534
+     type_code : 14
+     code : |1-
+      // Summary: Displays, highlights or hides some controls
+      // Caution: this procedure is used as a help for configuring the tracer
+      // Syntax:
+      //DisplayControl ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      
+      PROCEDURE DisplayControl()
+      
+      nBckgrdColorHighlight is string = RGB(102,153,255)
+      
+      BTN_PreviousStep..State = Active
+      BTN_NextStep..State = Active
+      
+      SWITCH gnCurrentStep
+      	// "Normal" communication
+      	CASE 0
+      		GR_NormalComm..Visible = True
+      		GR_ClientToTracer..Visible = False
+      		GR_ServerToTracer..Visible = False
+      		GR_TracerToClient..Visible = False
+      		GR_TracerToServer..Visible = False
+      		
+      		GR_ClientControl..BackgroundColor = iWhite
+      		GR_ServerControl..BackgroundColor = iWhite
+      		GR_TracerControl..BackgroundColor = iWhite
+      		BTN_PreviousStep..State = Grayed
+      		
+      	// Step 1: Enter the name of the Client application
+      	CASE 1
+      		GR_NormalComm..Visible = False
+      		GR_ClientToTracer..Visible = True
+      		GR_ServerToTracer..Visible = True
+      		GR_TracerToClient..Visible = True
+      		GR_TracerToServer..Visible = True
+      		
+      		GR_ClientControl..BackgroundColor = nBckgrdColorHighlight
+      		GR_ServerControl..BackgroundColor = iWhite
+      		GR_TracerControl..BackgroundColor = iWhite
+      		
+      	// Step 2: Enter the information of the Server application
+      	CASE 2
+      		GR_NormalComm..Visible = False
+      		GR_ClientToTracer..Visible = True
+      		GR_ServerToTracer..Visible = True
+      		GR_TracerToClient..Visible = True
+      		GR_TracerToServer..Visible = True
+      		
+      		GR_ClientControl..BackgroundColor = iWhite
+      		GR_ServerControl..BackgroundColor = nBckgrdColorHighlight
+      		GR_TracerControl..BackgroundColor = iWhite
+      		
+      		
+      	// Step 3: Enter the information in the client application
+      	CASE 3
+      		GR_NormalComm..Visible = False
+      		GR_ClientToTracer..Visible = True
+      		GR_ServerToTracer..Visible = True
+      		GR_TracerToClient..Visible = True
+      		GR_TracerToServer..Visible = True
+      		
+      		GR_ClientControl..BackgroundColor = iWhite
+      		GR_ServerControl..BackgroundColor = iWhite
+      		GR_TracerControl..BackgroundColor = nBckgrdColorHighlight
+      		
+      	// Step 4: Start the tracer
+      	CASE 4
+      		GR_NormalComm..Visible = False
+      		GR_ClientToTracer..Visible = True
+      		GR_ServerToTracer..Visible = True
+      		GR_TracerToClient..Visible = True
+      		GR_TracerToServer..Visible = True
+      		
+      		GR_ClientControl..BackgroundColor = iWhite
+      		GR_ServerControl..BackgroundColor = iWhite
+      		GR_TracerControl..BackgroundColor = iWhite
+      		
+      		BTN_NextStep..State = Grayed
+      		
+      	OTHER CASE
+      		
+      END
+     type : 458752
+   -
+     name : PreviousStep
+     procedure_id : 1760453209986215070
+     type_code : 14
+     code : |1-
+      // Summary: Displays the previous step
+      // Caution: this procedure is used as a help for configuring the tracer
+      // Syntax:
+      //PreviousStep ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      
+      PROCEDURE PreviousStep()
+      
+      // Step 0 is the first one
+      IF gnCurrentStep = 0 THEN RETURN
+      
+      // Decrements the current step
+      gnCurrentStep--
+      
+      // Prepares the animation
+      AnimationPrepare(MyWindow)
+      
+      // Displays the step
+      DisplayStep()
+      
+      // Plays the animation
+      AnimationPlay(animFadeIn)
+     type : 458752
+   -
+     name : NextStep
+     procedure_id : 1760453209986280606
+     type_code : 14
+     code : |1-
+      // Summary: Displays the next step
+      // Caution: this procedure is used as a help for configuring the tracer
+      // Syntax:
+      //NextStep ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      
+      PROCEDURE NextStep()
+      
+      // Step 4 is the last one
+      IF gnCurrentStep = 4 THEN RETURN
+      
+      // Increments the current step
+      gnCurrentStep++
+      
+      // Prepares the animation
+      AnimationPrepare(MyWindow)
+      
+      // Displays the step
+      DisplayStep()
+      
+      // Plays the animation
+      AnimationPlay(animFadeIn)
+     type : 458752
+   -
+     name : TestValue
+     procedure_id : 1760453209986346142
+     type_code : 14
+     code : |1-
+      // Summary: Checks the edit control
+      // Syntax:
+      //TestValue ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      
+      PROCEDURE TestValue()
+      
+      // Tracer address
+      IF EDT_LOCALIP = "" THEN
+      	Error(<§$000e§>)
+      	ReturnToCapture(EDT_LOCALIP)
+      END
+      
+      // Server Address
+      IF EDT_REALIP = "" THEN
+      	Error(<§$000f§>)
+      	ReturnToCapture(EDT_REALIP)
+      END
+      
+      // Tracer port
+      IF EDT_LOCALPORT = "" THEN
+      	Error(<§$0010§>)
+      	ReturnToCapture(EDT_LOCALPORT)
+      END
+      
+      // Server port
+      IF EDT_REALPORT = "" THEN
+      	Error(<§$0011§>)
+      	ReturnToCapture(EDT_REALPORT)
+      END
+      
+      // Customer name
+      IF EDT_CLIENTNAME = "" THEN
+      	Error(<§$0012§>)
+      	ReturnToCapture(EDT_CLIENTNAME)
+      END
+      
+      // Name of server
+      IF EDT_SERVERNAME = "" THEN
+      	Error(<§$0013§>)
+      	ReturnToCapture(EDT_LOCALIP)
+      END
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : ActivVISTA_0_D_10_43_07__02_11_2005
+resources :
+ string_res :
+  identifier : 0x168139d70259edc9
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : Unable to start the intermediate trace server.
+     index : 0
+   -
+     text :
+      en-GB : "\"Normal\" communication"
+     index : 1
+   -
+     text :
+      en-GB : "\"Normal\" communication"
+     index : 2
+   -
+     text :
+      en-GB : Normal communication
+     index : 3
+   -
+     text :
+      en-GB : "The client sends requests to the server that responds.\r\n\t\t\r\nThe client knows the connection information of the server (IP address, communication port)\r\n\t\t\r\nThe socket tracer will be positioned as an intermediate node in this communication.\r\nIt will receive the requests from the client to transmit them to the server as well as the responses from the server to transmit them to the client."
+     index : 4
+   -
+     text :
+      en-GB : "\"Traced\" communication"
+     index : 5
+   -
+     text :
+      en-GB : "Step 1: identifying the client application"
+     index : 6
+   -
+     text :
+      en-GB : "First enter the name of the client application.\r\nThis name will be used in the trace to easily identify the application.\r\n(example: MyOutlook)"
+     index : 7
+   -
+     text :
+      en-GB : "Step 2: Connect the tracer to the server"
+     index : 8
+   -
+     text :
+      en-GB : "Enter the information of the server application: \r\n- its name, that will be used in the trace to the easily identify the application. \r\n(for example: POP3Server)\r\n- its IP address and its port: this information is specified in your client application.\r\n(for example: pop.yahoo.com, 110)\r\n\t\t \r\nThe socket tracer can now communicate with the server application"
+     index : 9
+   -
+     text :
+      en-GB : "Step 3: connect the tracer to the client"
+     index : 10
+   -
+     text :
+      en-GB : "In the client application, enter the information of the socket tracer instead of the server information: \r\n- its IP address and its port: its information is the one displayed for the tracer\r\n(127.0.0.1, 110 for example)\r\n\t\t\r\nThe socket tracer can now communicate with the client application."
+     index : 11
+   -
+     text :
+      en-GB : "Step 4: Start the tracer"
+     index : 12
+   -
+     text :
+      en-GB : "Start the socket tracer by clicking the \"Start\" button.\r\nAll you have to do is use the client application in order to display the exchanges by socket between the client and the server."
+     index : 13
+   -
+     text :
+      en-GB : "You must enter the intermediate IP address: this address corresponds to the computer address"
+     index : 14
+   -
+     text :
+      en-GB : "Enter the IP address of the server: this address is the one specified in the client application that connects to it"
+     index : 15
+   -
+     text :
+      en-GB : "You must enter the in-between port: this port corresponds to the port to use on the machine"
+     index : 16
+   -
+     text :
+      en-GB : "Enter the port number of the server: this port is the one specified in the client application that connects to it"
+     index : 17
+   -
+     text :
+      en-GB : Enter the name of the client application.
+     index : 18
+   -
+     text :
+      en-GB : Enter the name of the server application.
+     index : 19
+   -
+     text :
+      en-GB : The port number must be specified
+     index : 20
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+associated_test :
+ name : TEST_SocketTracer.wxt
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

@@ -1,0 +1,647 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : clSocket
+ major_version : 28
+ minor_version : 0
+ type : 4
+ description : ""
+ subtype : 0
+class :
+ identifier : 0x11374922001391e3
+ internal_properties : CAAAAAgAAAB2/vstTMCJbS/hlxjFxirSqKvCUuv8YxgpWyl7S3iA
+ code_elements :
+  internal_properties : CAAAAAgAAAD1pvVt+MfQCK+0fs8GEchfIliZKBJDNmzQAE4nQDfaOn+vaUQyVE6YIgtEP2eMbrbHCAo0teEomJtgf1O/R5VAELppm5pfgQM4xL9oSjpUtFpCvN0nJa5SKROfeec7951kOIol52avV4yzjzInn5XOfDYANSRcvlWGnIpJpiSoCOVj
+  type_code : 10
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAACBSECMJUfQe2dg/UOsILRdwGrIjtOmk/ULtArYpLvHh5ThZXXKWZer7LssGQvG7W4DL1VrHgcMlwLvUyj5tYsGDPBmzGOQTnQ07Vs+LrJNdBJPeoL88N4R/D2cdEgOgQs06E+zHbjM3wlMK0Ad8H42MWhoOPJbWMyhWmpTdSMODQ==
+     code : |1+
+      clSocket is Class
+      	m_sNameSnifSocket is string // Name of the Tracer socket
+      	m_sNameWaitingThread is string // Name of the thread waiting for connection
+      	m_sErrorMessage is string // Error message
+      	m_sNameClientApplication is string // Name of the client application
+      	m_sNameServerApplication is string // Name of the server application
+      	m_sServerAddress is string // Address of the server application
+      	m_nNumServerPort is int // Port of the server application
+      	
+      	m_arrSocket is array dynamic of 0 strings // Array for Socket management
+      	m_arrThread is array dynamic of 0 strings // Array for Thread management
+      	
+      END
+      
+     type : 131072
+  procedures :
+   -
+     name : Constructor
+     internal_properties : CAAAAAgAAACihLJIDl5BGDZ/TOTcjJZjRChdvAftkewZ7N4z28VQPCgJ7b6mJSsvdxkz/NkWRBZlHPQZ93Ax2xp0y06J/Cx+QwHlPeApZC1l6rx4mqkRJ5lLYiKJgPTQ82RRRq00OUekNl7EMElMON2kkTkMJtL+9onOoV7/HwWrlMkeZaLXV0+uvaVJzMFbRabawnxtgDiX2xozAw==
+     procedure_id : 1240540632742924771
+     type_code : 27
+     code : |1-
+      // Summary: <specify the action of the procedure>
+      // Syntax:
+      // Constructor ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCEDURE Constructor()
+      
+      dtTemp is datetime
+      
+      // Defines a unique name for the server socket and for the waiting thread
+      :m_sNameSnifSocket = <§$0000§> + dtTemp
+      :m_sNameWaitingThread = <§$0001§> + dtTemp
+     type : 589824
+   -
+     name : Destructor
+     procedure_id : 1240540632742990307
+     type_code : 28
+     code : |1-
+      // Summary: <specify the action of the procedure>
+      // Syntax:
+      // Destructor ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCEDURE Destructor()
+      
+      // Automatic stop of the server
+      :ServerStop()
+     type : 655360
+   -
+     name : ServerStart
+     internal_properties : CAAAAAgAAABKaHwc8cDtv4UxAy2MwBbWIONfpXcnTHNaFrMXtGg1bpeSLjxS2Zwq+SsaJ0EQVblZ2g1n9ovcE1g7o3R71Ym7NKOXSQnrcRQCGbwA3pvJxa8erNt/a6Pen1wvCsZo/hQkjm5FK05zO8zgfygvzwcRL4XM/OkSgJb8kv11mt2GxsmLxi9fVOBMV5MR75irS9KPYNhmzgaBJkraPIYHkLEb0Hyn8ZerFyGnnqEjaJ7GF/S7XpU+F3jwqha4C4txnM/8pWiJ9ErZvgX8ZR1J
+     procedure_id : 1240547182583076509
+     type_code : 12
+     code : |1-
+      // Summary: Starts the server
+      //
+      // Syntax:
+      //[ <Result> = ] ServerStart (<sNameClientApplication> is string, <sAddressClientSocket> is string, <nNumClientSocketPort> is int, <sNameServerApplication> is string, <sServerAddress> is string, <nNumServerPort> is int)
+      //
+      // Parameters:
+      //	sNameClientApplication (ANSI string): Character string containing the name of the client application to trace
+      //	sAddressClientSocket (ANSI string): Character string containing the intermediate IP address (or DNS name) to which the client application will connect for the trace
+      //	nNumClientSocketPort (integer): Integer corresponding to the intermediate port number to which the client application will connect for the trace
+      //	sNameServerApplication (ANSI string): Character string containing the name of the server application to trace
+      //	sServerAddress (ANSI string): Character string containing the IP address (or the DNS name) of the server application to trace
+      //	nNumServerPort (integer): Integer corresponding to the port number of the server application to trace
+      // Return value:
+      // 	boolean:     True if the intermediate trace server was started, False otherwise. If an error occurs, :msErrorMessage contains the error details.
+      //// Example:
+      //	//Start the intermediate trace server
+      //	IF NOT objSnifSocket:ServerStart(CHPCLIENTNAME,CHPLOCALIP,CHPLOCALPORT,CHPSERVERNAME,CHPREALIP,CHPREALPORT) THEN
+      //		Error("Unable to start the intermediate trace server. Check whether a local address was specified and whether the port is not currently used. Error Details:",objSnifSocket:ErrorMessage())
+      //	ELSE
+      //		//Connection OK
+      //		//end the guide (if in progress)
+      //		IF gfeGuideStep IN (1,2) THEN 
+      //			gfeGuideStep=2
+      //			RefGuideStep()
+      //		END
+      //		//Grays the controls that cannot be used during the connection
+      //		GRPCONTROLTODISABLE..State=Grayed
+      //		//Activates the buttons to stop the trace server
+      //		BTNSTOPSOCKET..State=Active
+      //	END
+      //
+      
+      PROCEDURE ServerStart(LOCAL sNameClientApplication is string, LOCAL sAddressClientSocket is string, LOCAL nNumClientSocketPort is int, LOCAL sNameServerApplication is string, LOCAL sServerAddress is string, LOCAL nNumServerPort is int)
+      
+      // Checks whether a socket with the same name does not already exist
+      IF SocketExist(:m_sNameSnifSocket) THEN
+      	:m_sErrorMessage = <§$0002§>
+      	RESULT False
+      END
+      
+      // Create the socket
+      IF SocketCreate(:m_sNameSnifSocket, nNumClientSocketPort, sAddressClientSocket) = False THEN
+      	// Stores the error message
+      	:m_sErrorMessage = StringBuild(<§$0003§> +CR+ <§$0004§>, sAddressClientSocket, nNumClientSocketPort, ErrorInfo())
+      	RESULT False	
+      END
+      // Add the socket to the table of current sockets
+      :AddArraySocket(:m_sNameSnifSocket)
+      
+      // Stores the parameters of the socket server
+      :m_sServerAddress = sServerAddress 
+      :m_sNameServerApplication = sNameServerApplication 
+      :m_sNameClientApplication = sNameClientApplication 
+      :m_nNumServerPort = nNumServerPort
+      
+      // Transmission Mode: Don't change the incoming/outgoing data
+      SocketChangeTransmissionMode(:m_sNameSnifSocket, SocketNoEndTag)
+      // Manage the critical sections for the threads
+      ThreadMode(threadCriticalSection)
+      
+      // Thread for waiting for the client connections
+      // Add the thread to the array of current threads
+      :AddArrayThread(:m_sNameWaitingThread)
+      ThreadExecute(:m_sNameWaitingThread, threadNormal, <§$0005§>)
+      
+      // Server properly started
+      RESULT True
+     type : 458752
+   -
+     name : ServerStop
+     internal_properties : CAAAAAgAAAAgvvYzJPwlSW3+KWbYjHPk9DTdyuai6bnwnbEm2cIz09Dt6YWZLS8sUAkaamo2/L7MIR0UxNQwqIvckr/e3/w3F3ozAhUncTaRCTnBs+athvP0I60u10wiKK0vLGW+tm6d9eVLwGUROergi7fHIgshK/oXnhDBpNgm7j0aSMpcRQG+H3EqzfZInz/hwESuVDQxsyj32gSjWCcXFDi2KtbfpOvAYFE5DqzOpVQXR9wTAHAGJ9ag1ws34fNhldqt1w==
+     procedure_id : 1240549828282957427
+     type_code : 12
+     code : |1-
+      // Summary: Method to stop the socket server
+      // Syntax:
+      //[ <Result> = ] ServerStop ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: True if the server was stopped, False otherwise (already stopped or never started)
+      //
+      // Example:
+      //	//Stops the intermediate trace socket server
+      //	IF NOT objSnifSocket:ServerStop() THEN
+      //		//Pb stopping the server
+      //		Error(objSnifSocket:ErrorMessage())
+      //	ELSE
+      //		//server stopped
+      //		MySelf..State=Grayed
+      //		GRPCONTROLTODISABLE..State=Active
+      //	END
+      
+      
+      PROCEDURE ServerStop()
+      
+      // Current server?
+      IF NOT SocketExist(:m_sNameSnifSocket) THEN
+      	:m_sErrorMessage = <§$0006§>
+      	RESULT False
+      END
+      
+      // End of all threads
+      WHILE :m_arrThread..Occurrence > 0
+      	:DeleteArrayThread(:m_arrThread[1], True)
+      END
+      // End of all the sockets
+      WHILE :m_arrSocket..Occurrence > 0
+      	:DeleteArraySocket(:m_arrSocket[1])
+      END
+      
+      RESULT True
+     type : 458752
+   -
+     name : ServerWaitForConnection
+     internal_properties : CAAAAAgAAABIcA+6V2vvfNle6kNetBzUvXBLSyyAwSYe/LRllBvKyEmsBk1XFur86UpCoe/jK67MXVvqTIcD+9vfikahKo1Ns4h5f2CpmTbtdBAMR6m+QqiOybiVPhG2tcCRVt1o++aRJ+AhXDNZiijZj6/pRbqsSMMMRnqUWwcNOdwgoCfnc3uCB34tjagetXdVGY+WVjratB01Wq0K5VQU3bR0d8ecDAWWBbj54kL0fXhmwEgpKGbVIQPbvdknzel8tVBEbhJLlcqnq/rZluV3I6cLuSx5HcLIjfbkQw==
+     procedure_id : 1240551816852885306
+     type_code : 12
+     code : |1+
+      // Summary: Method for internal class use, Method run in a thread when starting the server socket and that waits for the connections of the client computers
+      
+      PROCEDURE PRIVATE ServerWaitForConnection()
+      
+      sCommunicationChannel is string
+      nClientPort is int
+      sClientAddress is string
+      
+      
+      // Loop that waits for the connections of the client computers
+      WHILE SocketWaitForConnection(:m_sNameSnifSocket, Infinite) 
+      	
+      	// Accept all the client connections
+      	sCommunicationChannel = SocketAccept(:m_sNameSnifSocket)
+      	
+      	// Dialog without change (without automatic addition of WinDev in the incoming and outgoing messages)
+      	SocketChangeTransmissionMode(sCommunicationChannel, SocketNoEndTag)
+      	
+      	// Retrieve the information about the client socket 
+      	sClientAddress = SocketClientInfo(sCommunicationChannel, SocketAddress)
+      	nClientPort = SocketClientInfo(sCommunicationChannel, SocketPort)
+      	
+      	// Add the socket to the table of current sockets	
+      	:AddArraySocket(sCommunicationChannel)
+      	
+      	// Start a thread to manage this socket (the socket information is passed in parameter)
+      	// Add the thread to the table of current threads	
+      	:AddArrayThread(sCommunicationChannel)	
+      	ThreadExecute(sCommunicationChannel, threadNormal, <§$0007§>, sCommunicationChannel, sClientAddress, nClientPort)
+      END
+      
+      // End of thread: it must be deleted from the array
+      :DeleteArrayThread(:m_sNameWaitingThread)
+     type : 458752
+   -
+     name : ServerManageAConnection
+     internal_properties : CAAAAAgAAAByfR4Ze4DoseIrs/HyigR8X3uuNicXd3Z+sAgfQ53z4YY4esFKsHD2HNS8fRXg2OCgr9ckAkS82ipuExpxqtmd1/9LqI7F9QNbGNOlYnYJg+nRbEqEchNqzFl2nwZ2N21gqNfZisI6QjMU8aoJQcelUMlQ4oSAVr2nF360izLqCuH9X1s1YnoFvWVXnAjxthanD4xE3XHrBxW5fid5lQNe/sPadR/c0pMIKslWCzJC6cxLs6Gy9NsULZFAaHwJmcMnk0UkzA7+uL4M+LfZTkRbR9S5wAcq03cCHg1P8gab8go6ADBmqtDRbHkeY7Sf2+wssKyts3cSmRWxlR7r6aPrOSQV2a6pGDHZ
+     procedure_id : 1240553332976430916
+     type_code : 12
+     code : |1-
+      // Summary: Method for internal class use, Method in a thread to manage a client socket (the socket information is passed in parameter)
+      // Syntax:
+      //ServerManageAConnection (<sCommunicationChannel> is string, <sClientAddress> is string, <nClientPort> is int)
+      //
+      // Parameters:
+      //	sCommunicationChannel (ANSI string): Name of the channel (of the socket) to manage
+      //	sClientAddress (ANSI string): IP address of the socket
+      //	nClientPort (integer): Port number of the socket
+      // Return value:
+      // 	None
+      
+      PROCEDURE PRIVATE ServerManageAConnection(LOCAL sCommunicationChannel is string, LOCAL sClientAddress is string, LOCAL nClientPort is int <useful>)
+      
+      sNameLinkedSocket is string
+      
+      // Defines the name of the linked socket
+      sNameLinkedSocket = <§$0008§>+sCommunicationChannel
+      
+      // Connection
+      // The connection must be transmitted to the "real" server
+      // Traces the information
+      :TraceInfo(StringBuild(<§$0009§>, :m_sNameClientApplication, sClientAddress, :m_sNameServerApplication, :m_sServerAddress))
+      // Then, try to "transmit" to the "real" server
+      IF NOT SocketConnect(sNameLinkedSocket,:m_nNumServerPort,:m_sServerAddress) THEN
+      	:TraceInfo(StringBuild(<§$000a§>, :m_sNameClientApplication, sClientAddress, :m_sNameServerApplication, :m_sServerAddress, ErrorInfo()))
+      	RETURN
+      END
+      // Adds the socket for the "real" server to the array of sockets
+      :AddArraySocket(sNameLinkedSocket)
+      // Traces whether the connection was successful
+      :TraceInfo(StringBuild(<§$000b§>, :m_sNameClientApplication, sClientAddress, :m_sNameServerApplication, :m_sServerAddress))
+      // Transmission mode without modifying the L/E
+      SocketChangeTransmissionMode(sNameLinkedSocket, SocketNoEndTag)
+      
+      // Start a new thread to transmit all the write operations from the real server to the local computer
+      // The last parameter is used to indicate the direction of communication for the trace
+      // A new thread, add it to the table of threads
+      :AddArrayThread(sNameLinkedSocket)
+      ThreadExecute(sNameLinkedSocket, threadNormal, <§$000c§>, sNameLinkedSocket, (:m_sServerAddress), (:m_sNameServerApplication), sCommunicationChannel, sClientAddress, (:m_sNameClientApplication), False)
+      
+      // Use the current thread to transmit all the write operations from the local computer to the real server
+      // The last parameter is used to indicate the direction of communication for the trace
+      :TransmitInfoBetweenSocket(sCommunicationChannel, sClientAddress, (:m_sNameClientApplication), sNameLinkedSocket, (:m_sServerAddress), (:m_sNameServerApplication), True)
+      
+      // Exit from the procedure so the communication is ended on this socket
+      :TraceInfo(StringBuild(<§$000d§>, :m_sNameClientApplication, sClientAddress, :m_sNameServerApplication, :m_sServerAddress))
+      
+      // Updates the array of threads and sockets for the current thread and socket
+      :DeleteArrayThread(sNameLinkedSocket, True)
+      :DeleteArraySocket(sNameLinkedSocket)
+      // Updates the array of threads and sockets for the thread and the socket of the communication in the other direction
+      :DeleteArrayThread(sCommunicationChannel, False)
+      :DeleteArraySocket(sCommunicationChannel)
+     type : 458752
+   -
+     name : TraceInfo
+     procedure_id : 1240554926409341755
+     type_code : 12
+     code : |1-
+      // Summary: Method used to trace the socket actions
+      // Syntax:
+      //TraceInfo (<sInfoToTrace> is string)
+      //
+      // Parameters:
+      //	sInfoToTrace (ANSI string): Character string with the message to trace
+      // Return value:
+      // 	None
+      
+      PROCEDURE TraceInfo(LOCAL sInfoToTrace is string)
+      
+      Trace(sInfoToTrace)
+     type : 458752
+   -
+     name : TransmitInfoBetweenSocket
+     internal_properties : CAAAAAgAAABYapxWcfTxruSbUCL+KDL/rmAnZO2LVar3yNq5PQEEoI5Fu5KspyuhPX2jGvsyYGpXxJJlmQ4FnUCg54An7Gw2ldn/1dIrNN8LjvHhCRzkVqZefV/0U1GdhIVK1xT/9N49yUHVF6AlEfJpzuLjAbFhW/x5ZnHi7E6gqfK//EVyTqQFBO7wY1r4Jtfn/7eUN1OFyQjFfQ==
+     procedure_id : 1240557731023049328
+     type_code : 12
+     code : |1+
+      // Summary: Method for internal class use, Method used to transmit (and trace) the communications from one socket to another one
+      // Syntax:
+      //TransmitInfoBetweenSocket (<sSocketToRead> is string, <sAddressSocketRead> is string, <sApplicationNameSocketRead> is string, <sSocketToWrite> is string, <sAdressSocketWritten> is string, <sApplicationNameSocketWritten> is string, <bReadWriteDirection> is boolean)
+      //
+      // Parameters:
+      //	sSocketToRead (ANSI string): Character string containing the name of the socket to read
+      //	sAddressSocketRead (ANSI string): Integer containing the port number of the socket to read
+      //	sApplicationNameSocketRead (ANSI string): Character string containing the name of the application corresponding to the socket read
+      //	sSocketToWrite (ANSI string): Character string containing the name of the socket in which the information read in the first socket must be written
+      //	sAddressSocketWritten (ANSI string): Integer containing the port number of the socket to write
+      //	sApplicationNameSocketWritten (ANSI string): Character string containing the name of the application corresponding to the socket in which the information is written
+      //	bReadWriteDirection (boolean): Boolean to specify the Read/Write direction for the trace. True for -> and False for <-
+      // Return value:
+      // 	None
+      
+      PROCEDURE PRIVATE TransmitInfoBetweenSocket(LOCAL sSocketToRead is string, LOCAL sAddressSocketRead is string, LOCAL sApplicationNameSocketRead is string, LOCAL sSocketToWrite is string, LOCAL sAddressSocketWritten is string, LOCAL sApplicationNameSocketWritten is string, LOCAL bReadingWritingOrder is boolean)
+      
+      sBufferRead is buffer
+      
+      
+      LOOP
+      	// Pending read operation (infinite)
+      	sBufferRead = SocketRead(sSocketToRead, True)	
+      	// Reading OK?
+      	IF ErrorOccurred THEN
+      		// Read problem
+      		// "Normal" stop?
+      		IF ErrorInfo(errCode) IN (100031,100032) THEN
+      			// Normal stop
+      			:TraceInfo(StringBuild(<§$000e§>, sApplicationNameSocketRead, sAddressSocketRead, <§$000f§>))
+      		ELSE		
+      			// Unexpected failure, error??
+      			:TraceInfo(StringBuild(<§$0010§>, sApplicationNameSocketRead, sAddressSocketRead, sApplicationNameSocketWritten, sAddressSocketWritten, ErrorInfo(errCode)+"/"+ErrorInfo()))
+      		END
+      		// In all the cases, stop the procedure, communication ended
+      		BREAK	
+      	ELSE
+      		// Reading OK
+      		// Trace according to the specified direction
+      		IF bReadingWritingOrder THEN
+      			:TraceInfo(StringBuild(<§$0012§>, sApplicationNameSocketRead, sAddressSocketRead, sApplicationNameSocketWritten, sAddressSocketWritten, sBufferRead))
+      		ELSE
+      			:TraceInfo(StringBuild(<§$0013§>, sApplicationNameSocketRead, sAddressSocketRead, sApplicationNameSocketWritten, sAddressSocketWritten, sBufferRead))
+      		END
+      	END
+      	
+      	// Writes the information read on the first socket into the second socket
+      	IF NOT SocketWrite(sSocketToWrite,sBufferRead) THEN
+      		// Write problem
+      		// Problem caused by a "voluntary closing of connection?"
+      		IF ErrorInfo(errCode) IN (100031,100032) THEN
+      			// Stop the other part
+      			:TraceInfo(StringBuild(<§$000e§>, sApplicationNameSocketWritten, sAddressSocketWritten, <§$000f§>))
+      		ELSE
+      			// Unexpected failure, write error??
+      			:TraceInfo(StringBuild(<§$0014§>, sApplicationNameSocketRead, sAddressSocketRead, sApplicationNameSocketWritten, sAddressSocketWritten, ErrorInfo(errCode)+"/"+ErrorInfo()))
+      		END		
+      		// In all the cases, stop the procedure, communication ended
+      		BREAK			
+      	END
+      END
+     type : 458752
+   -
+     name : ErrorMessage
+     procedure_id : 1240560381018028786
+     type_code : 12
+     code : |1+
+      // Summary: Method that returns the last error message of this class
+      // Syntax:
+      //[ <Result> = ] ErrorMessage ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	string: Last error message
+      //
+      // Example:
+      //	//Start the intermediate trace server
+      //	IF NOT objSnifSocket:ServerStart(CHPCLIENTNAME,CHPLOCALIP,CHPLOCALPORT,CHPSERVERNAME,CHPREALIP,CHPREALPORT) THEN
+      //		Error("Unable to start the intermediate trace server. Check whether a local address was specified and whether the port is not currently used. Error Details:",objSnifSocket:ErrorMessage())
+      //	ELSE
+      //		//Connection OK
+      //		//... rest of code
+      //	END
+      
+      PROCEDURE ErrorMessage()
+      
+      
+      RESULT :m_sErrorMessage
+     type : 458752
+   -
+     name : DeleteArrayThread
+     internal_properties : CAAAAAgAAAB5n0COvFmjE1ReWVRRZzsm+ql6INPvglZVMffFqg2Mn32ZuRQVO901oZdJnYmnivpLgFCCNnOmEye+FN3F2cjRINaqkdhKfK4mAUd+yICS7tKrmkQVGmyXXsboHVTkcFwI9sLfYoLausy8weOiODtcCL4gmb1MorpeES3cdaYTaFnGSivan2nTUuWoUenvbunqoE7GW317RukC+kFdhgZo54JCoTKstqo7pOFN3L2RuQ/6inoNyX5mUJkhAZJO3W9cYIKdKmssoNnPe3pQhozN0cVLn3Cz9bqtoONHCBObCuOSYeTgTzamHDA4
+     procedure_id : 1240775636174251373
+     type_code : 12
+     code : |1+
+      // Summary: Method for internal class use, Deletes a thread from the list of current thread (and ends the current thread if necessary)
+      
+      // Syntax:
+      //DeleteArrayThread (<sNameThreadToDelete> is string [, <bStopThread> is boolean])
+      //
+      // Parameters:
+      //	sNameThreadToDelete (ANSI string): Character string containing the name of the thread to delete
+      //	bStopThread (boolean - default value=0): Boolean set to True to stop the current thread (False by default)
+      // Return value:
+      // 	None
+      
+      PROCEDURE PRIVATE DeleteArrayThread(LOCAL sNameThreadToDelete is string, LOCAL bStopThread is boolean = False)
+      
+      nSubscript is int
+      
+      // Do we have to stop the thread?
+      IF bStopThread THEN
+      	// Stops the thread if it is in progress
+      	IF ThreadState(sNameThreadToDelete) <> threadUnknown THEN ThreadStop(sNameThreadToDelete)
+      END
+      
+      // Deletion in the array of threads
+      // Via critical section because can be handled by several threads
+      CriticalSectionStart(<§$0015§>)
+      // Search for the thread
+      nSubscript = ArraySeek(:m_arrThread, asLinear, sNameThreadToDelete)
+      // Found?
+      IF nSubscript > 0 THEN
+      	// Yes, delete from the array
+      	ArrayDelete(:m_arrThread, nSubscript)
+      END
+      CriticalSectionEnd(<§$0015§>)
+     type : 458752
+   -
+     name : DeleteArraySocket
+     internal_properties : CAAAAAgAAADEpADIICQK0YDkQCG7as/nMsGXtq8QsIweUKJt0wEAd5gJwQHEyS3/Xzl3rKI2rbox7Kpj/tkhNEIQ+8lAzeY/z/C4KzygUqqf609cbOP9l+aoE4zJh5J2ALE1ZCY7sFCX1/uyAaeAnJ6q0XP3eaGGD9jpvYFb+a1Q0n3ETrusvFk+e8Z9b7+3pbVbouqjmtProaJ+204YDU0R2uTuFekJrDFW4vWqMhgrJMeAej5KvFhEa4nxqdwoGxt6Gt5axyw/
+     procedure_id : 1240778311938975290
+     type_code : 12
+     code : |1-
+      // Summary: Method for internal class use, Deletes a thread from the list of current threads (and ends the current thread if necessary)
+      // Syntax:
+      //DeleteArraySocket (<sNameSocketToDelete> is string)
+      //
+      // Parameters:
+      //	sNameSocketToDelete (ANSI string): character string containing the name of the class to modify
+      // Return value:
+      // 	None
+      //
+      
+      PROCEDURE PRIVATE DeleteArraySocket(LOCAL sNameSocketToDelete is string)
+      
+      nSubscript is int
+      
+      // Stop the socket if it exists
+      IF SocketExist(sNameSocketToDelete) THEN SocketClose(sNameSocketToDelete)
+      
+      // Delete the array of sockets
+      // Via critical section because can be handled by several threads
+      CriticalSectionStart(<§$0016§>)
+      // Find
+      nSubscript = ArraySeek(:m_arrSocket, asLinear, sNameSocketToDelete)
+      // Found?
+      IF nSubscript > 0 THEN
+      	// Deletes from the array
+      	ArrayDelete(:m_arrSocket, nSubscript)
+      END
+      CriticalSectionEnd(<§$0016§>)	
+     type : 458752
+   -
+     name : AddArraySocket
+     internal_properties : CAAAAAgAAACw33WA9lulhikihaYYeE/sEw4HudEYsCrBNLeO32Fm9H4sMH5BpEfd1N20ITo5o3VfkGACnMJZFDaXjN52pPq2veQVwQrkJlIrgGKV2Uo3/TSWKwZZ7ajjgt1riLuJG1b2eesGCKhQZwiRwZG24QaXMtTzj2IK4dpQI7+qiV/1K/wkxaasZJojsYAv7Z2f+9SsAWY6qv+aPqKn/8QR5fTCsqI9yg==
+     procedure_id : 1240779248241932434
+     type_code : 12
+     code : |1-
+      // Summary: Method used to store the current sockets (useful to get the list of current sockets and to stop them if necessary)
+      
+      // Syntax:
+      //AddArraySocket (<sSocketName> is string)
+      //
+      // Parameters:
+      //	sSocketName (ANSI string): Character string containing the name of the socket to add
+      // Return value:
+      // 	None
+      //
+      // Example:
+      //:AddTAbleSocket(:msNameSnifSocket)
+      //
+      
+      PROCEDURE AddArraySocket(LOCAL sSocketName is string)
+      
+      // Critical section because the table can be used by several threads
+      CriticalSectionStart(<§$0016§>)
+      // New socket, add it to the table of sockets
+      ArrayAdd(:m_arrSocket, sSocketName)
+      CriticalSectionEnd(<§$0016§>)
+     type : 458752
+   -
+     name : AddArrayThread
+     internal_properties : CAAAAAgAAACwLgI754T5/wu0vzLy8CE6RtolRCSaNes2QwPOY3KMTWqXo0/bI3HiatNUXCAgHbgA5x1SxpSkZuniQAvAA8LhZyxrsOdHrRCLA/8t1YpPvFMS+6OsU7yULiOhsDfqBFv4vjYK8wjIbNmdyPAwyewGjluw9dc4Jztd0xJPjZEJ9lADlKzNDElDQjDy8VV9IeVDTfLdwH75zqnJZm6MBJzx1Z4zbeqCK633IP+iKp2MXS+7bHE7nvZ+ONhtqWo9Rw==
+     procedure_id : 1240779308371488234
+     type_code : 12
+     code : |1-
+      // Summary: Method used to store the current threads (useful to get the list of current threads and to stop them if necessary)
+      // Syntax:
+      //AddArrayThread (<sThreadName> is string)
+      //
+      // Parameters:
+      //	sThreadName (ANSI string): character string containing the name of the thread to add to the list
+      // Return value:
+      // 	None
+      // Example:
+      //:AddTableThread(:msNameWaitingThread)
+      
+      PROCEDURE AddArrayThread(LOCAL sThreadName is string)
+      
+      // Critical section because the table can be used by several threads
+      CriticalSectionStart(<§$0015§>)
+      // A new thread, add it to the table of threads
+      ArrayAdd(:m_arrThread, sThreadName)
+      CriticalSectionEnd(<§$0015§>)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x1137491c0010792b
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : SnifSocket
+     index : 0
+   -
+     text :
+      en-GB : WaitingThread
+     index : 1
+   -
+     text :
+      en-GB : "Server already started: use ServerStop."
+     index : 2
+   -
+     text :
+      en-GB : "Check whether the specified IP address (<%1>) is a local address and whether port #%2 is not already used on this address. Error Details:"
+     index : 3
+   -
+     text :
+      en-GB : "%3"
+     index : 4
+   -
+     text :
+      en-GB : ":ServerWaitForConnection"
+     index : 5
+   -
+     text :
+      en-GB : Server already stopped.
+     index : 6
+   -
+     text :
+      en-GB : ":ServerManageAConnection"
+     index : 7
+   -
+     text :
+      en-GB : LinkedSocket_
+     index : 8
+   -
+     text :
+      en-GB : "%1 (on %2) connection request to %3 (on %4)."
+     index : 9
+   -
+     text :
+      en-GB : "%1 (on %2) failure connecting to %3 (on %4). %5"
+     index : 10
+   -
+     text :
+      en-GB : "%1 (on %2) successfully connected to %3 (on %4)."
+     index : 11
+   -
+     text :
+      en-GB : ":TransmitInfoBetweenSocket"
+     index : 12
+   -
+     text :
+      en-GB : "%1 (on %2) connection ended to %3 (on %4)."
+     index : 13
+   -
+     text :
+      en-GB : "%1 (on %2): %3"
+     index : 14
+   -
+     text :
+      en-GB : Close the connection.
+     index : 15
+   -
+     text :
+      en-GB : "%1 (on %2) the read operation failed. %5"
+     index : 16
+   -
+     text :
+      en-GB : /
+     index : 17
+   -
+     text :
+      en-GB : "%1 (on %2) -> %3 (on %4): %5"
+     index : 18
+   -
+     text :
+      en-GB : "%3 (on %4) <- %1 (on %2): %5"
+     index : 19
+   -
+     text :
+      en-GB : "%1 (on %2) failure writing to %3 (on %4): %5"
+     index : 20
+   -
+     text :
+      en-GB : mtabThread
+     index : 21
+   -
+     text :
+      en-GB : mtabSocket
+     index : 22
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
